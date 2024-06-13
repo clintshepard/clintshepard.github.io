@@ -55,25 +55,18 @@
                         </div>
                     </div>
                 </form>
-            <div class="recipe-panel">
-                <div class="bottom-panel">
-                    <div id="recipe_buttons" class="recipe-buttons-container">
-                        <h2 id="recipe_category_title"></h2>
-                    </div>
-                </div>
             </div>
-        </div>
         <div class="right-panel">
-                <img src="ad.jpg" alt="Your Image" style="max-width: 100%; height: auto;">
+            <img src="ad.jpg" alt="Your Image" style="max-width: 100%; height: auto;">
         </div>
-        <div class="recipe-panel">
-            <div class="bottom-panel">
-                <div id="recipe_buttons" class="recipe-buttons-container">
-                    <h2 id="recipe_category_title"></h2>
-                </div>
+    <div class="recipe-panel">
+        <div class="bottom-panel">
+            <div id="recipe_buttons" class="recipe-buttons-container">
+                <h2 id="recipe_category_title"></h2>
             </div>
         </div>
     </div>
+        </div>
     </div>
     <script>
         let baseIngredients = {};
@@ -82,7 +75,7 @@
         let sortedRecipesByType = {};
 
         // Загрузка JSON-файла
-        fetch('recipes.json')
+        fetch('C:\\Users\\Rukhlov\\PycharmProjects\\clintshepard.github.io-main\\recipes.json')
             .then(response => response.json())
             .then(data => {
                 baseIngredients = data.base_ingredients;
