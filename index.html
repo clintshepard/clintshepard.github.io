@@ -5,6 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Химический калькулятор</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        @media screen and (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .right-panel {
+                display: none; /* Скрыть правую панель на мобильных устройствах */
+            }
+        }
+    </style>
 </head>
 <body class="dark-theme">
     <h1>Chemcalc 1984</h1>
@@ -48,6 +60,9 @@
                     <h2 id="recipe_category_title"></h2>
                 </div>
             </div>
+        </div>
+        <div class="right-panel">
+            <img src="ad.jpg" alt="Your Image" style="max-width: 100%; height: auto;">
         </div>
     </div>
 
