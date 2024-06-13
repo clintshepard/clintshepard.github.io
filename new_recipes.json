@@ -1,0 +1,1790 @@
+{
+    "base_ingredients": [
+        "Nitrogen",
+        "Water",
+        "Iodine",
+        "Silicon",
+        "Sodium",
+        "Mercury",
+        "Silver",
+        "Uranium",
+        "Chlorine",
+        "Chromium",
+        "Ethanol",
+        "Fluorine",
+        "Phosphorus",
+        "Toxin",
+        "Carbon",
+        "Sulfur",
+        "Sugar",
+        "Plasma",
+        "Radium",
+        "Copper",
+        "Lithium",
+        "Potassium",
+        "Oxygen",
+        "Iron",
+        "Hydrogen",
+        "Aluminum",
+        "Bromine",
+        "Fungus",
+        "Corn Oil",
+        "Welding Fuel",
+        "Blood",
+        "Morphine",
+        "Wine",
+        "Carpotoxin",
+        "Omnizine",
+        "Milk",
+        "Insulin",
+        "Gin & Sonic",
+        "Toilet Water",
+        "Banana Juice",
+        "Coca Extract",
+        "Cola",
+        "Uranium",
+        "Honey",
+        "Corn Starch",
+        "Triple Citrus",
+        "Capsaicin Oil",
+        "Nutriment",
+        "Egg",
+        "Chicken Noodle Soup",
+        "Pure Hugs"
+    ],
+    "recipes": [
+        {
+            "name": "Ammonia",
+            "ingredients": {
+                "Hydrogen": 3,
+                "Nitrogen": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Component"
+        },
+        {
+            "name": "Space Cleaner",
+            "ingredients": {
+                "Ethanol": 1,
+                "Water": 1,
+                "Ammonia": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Miscellaneous"
+        },
+        {
+            "name": "Oil",
+            "ingredients": {
+                "Welding Fuel": 1,
+                "Carbon": 1,
+                "Hydrogen": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Component"
+        },
+        {
+            "name": "Acetone",
+            "ingredients": {
+                "Oil": 1,
+                "Welding Fuel": 1,
+                "Oxygen": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Component"
+        },
+        {
+            "name": "Acetaldehyde",
+            "ingredients": {
+                "Chromium": 1,
+                "Oxygen": 1,
+                "Copper": 1,
+                "Ethanol": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": true,
+                "temperature": 548
+            },
+            "type": "Component"
+        },
+        {
+            "name": "Diethylamine",
+            "ingredients": {
+                "Ammonia": 1,
+                "Ethanol": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": true,
+                "temperature": 374
+            },
+            "type": "Component"
+        },
+        {
+            "name": "Glycerol",
+            "ingredients": {
+                "Corn Oil": 3,
+                "Sulphuric Acid": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Component"
+        },
+        {
+            "name": "Phenol",
+            "ingredients": {
+                "Water": 1,
+                "Chlorine": 1,
+                "Oil": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Component"
+        },
+        {
+            "name": "Saltpetre",
+            "ingredients": {
+                "Potassium": 1,
+                "Nitrogen": 1,
+                "Oxygen": 3
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Component"
+        },
+        {
+            "name": "Sulphuric Acid",
+            "ingredients": {
+                "Sulfur": 1,
+                "Oxygen": 1,
+                "Hydrogen": 1
+            },
+            "output": 2,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Component"
+        },
+        {
+            "name": "Salt",
+            "ingredients": {
+                "Sodium": 1,
+                "Chlorine": 1,
+                "Water": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Food"
+        },
+        {
+            "name": "Charcoal",
+            "ingredients": {
+                "Ash": 1,
+                "Salt": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": true,
+                "temperature": 380
+            },
+            "type": "Basic Medicine"
+        },
+        {
+            "name": "Antihol",
+            "ingredients": {
+                "Ethanol": 1,
+                "Charcoal": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Basic Medicine"
+        },
+        {
+            "name": "Ephedrine",
+            "ingredients": {
+                "Diethylamine": 1,
+                "Sugar": 1,
+                "Oil": 1,
+                "Hydrogen": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Basic Medicine"
+        },
+        {
+            "name": "Epinephrine",
+            "ingredients": {
+                "Phenol": 1,
+                "Acetone": 1,
+                "Diethylamine": 1,
+                "Oxygen": 1,
+                "Chlorine": 1,
+                "Hydrogen": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Basic Medicine"
+        },
+        {
+            "name": "Liquid Solder",
+            "ingredients": {
+                "Ethanol": 1,
+                "Copper": 1,
+                "Silver": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": true,
+                "temperature": 380
+            },
+            "type": "Basic Medicine"
+        },
+        {
+            "name": "Mannitol",
+            "ingredients": {
+                "Hydrogen": 1,
+                "Water": 1,
+                "Sugar": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Basic Medicine"
+        },
+        {
+            "name": "Unstable Mutagen",
+            "ingredients": {
+                "Chlorine": 1,
+                "Plasma": 1,
+                "Radium": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Other Medicine"
+        },
+        {
+            "name": "Mutadone",
+            "ingredients": {
+                "Unstable Mutagen": 1,
+                "Acetone": 1,
+                "Bromine": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Other Medicine"
+        },
+        {
+            "name": "Stable Mutagen",
+            "ingredients": {
+                "Mutadone": 3,
+                "Lithium": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Other Medicine"
+        },
+        {
+            "name": "Atropine",
+            "ingredients": {
+                "Ethanol": 1,
+                "Acetone": 1,
+                "Diethylamine": 1,
+                "Phenol": 1,
+                "Sulphuric Acid": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Superior Medicine"
+        },
+        {
+            "name": "Saline-Glucose solution",
+            "ingredients": {
+                "Salt": 1,
+                "Water": 1,
+                "Sugar": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Basic Medicine"
+        },
+        {
+            "name": "Spaceacillin",
+            "ingredients": {
+                "Ethanol": 1,
+                "Fungus": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Basic Medicine"
+        },
+        {
+            "name": "Oculine",
+            "ingredients": {
+                "Atropine": 1,
+                "Spaceacillin": 1,
+                "Saline-Glucose Solutinon": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Basic Medicine"
+        },
+        {
+            "name": "Salicylic Acid",
+            "ingredients": {
+                "Sodium": 1,
+                "Phenol": 1,
+                "Carbon": 1,
+                "Oxygen": 1,
+                "Sulphuric Acid": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Other Medicine"
+        },
+        {
+            "name": "Salbutamol",
+            "ingredients": {
+                "Salicylic Acid": 1,
+                "Lithium": 1,
+                "Aluminium": 1,
+                "Bromine ": 1,
+                "Ammonia": 1
+            },
+            "output": 5,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Basic Medicine"
+        },
+        {
+            "name": "Silver Sulfadiazine",
+            "ingredients": {
+                "Ammonia": 1,
+                "Silver": 1,
+                "Sulfur": 1,
+                "Oxygen": 1,
+                "Chlorine": 1
+            },
+            "output": 5,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Basic Medicine"
+        },
+        {
+            "name": "Styptic Powder",
+            "ingredients": {
+                "Aluminium": 1,
+                "Hydrogen": 1,
+                "Oxygen": 1,
+                "Sulphuric Acid": 1
+            },
+            "output": 4,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Basic Medicine"
+        },
+        {
+            "name": "Synthflesh",
+            "ingredients": {
+                "Blood": 1,
+                "Carbon": 1,
+                "Oxygen": 1,
+                "Styptic Powder": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Basic Medicine"
+        },
+        {
+            "name": "Syntmorphine",
+            "ingredients": {
+                "Carbon": 2,
+                "Hydrogen": 2,
+                "Ethanol": 1,
+                "Oxygen ": 1
+            },
+            "output": 6,
+            "heat": {
+                "required": true,
+                "temperature": 473
+            },
+            "type": "Basic Medicine"
+        },
+        {
+            "name": "Anti-burn Stimulant",
+            "ingredients": {
+                "Synthflesh": 40
+            },
+            "output": 1,
+            "heat": {
+                "required": true,
+                "temperature": 474
+            },
+            "type": "Superior Medicine"
+        },
+        {
+            "name": "Cryostylane",
+            "ingredients": {
+                "Water": 1,
+                "Plasma": 1,
+                "Nitrogen": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Miscellaneous"
+        },
+        {
+            "name": "Cryoxadone",
+            "ingredients": {
+                "Plasma": 1,
+                "Acetone": 1,
+                "Unstable Mutagen": 1,
+                "Cryostylane": 1
+            },
+            "output": 4,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Superior Medicine"
+        },
+        {
+            "name": "Hydrocodone",
+            "ingredients": {
+                "Morphine": 1,
+                "Sulphuric Acid": 1,
+                "Water": 1,
+                "Oil": 1
+            },
+            "output": 2,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Superior Medicine"
+        },
+        {
+            "name": "Mitocholide",
+            "ingredients": {
+                "Cryoxadone": 1,
+                "Synthflesh": 1,
+                "Plasma": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Superior Medicine"
+        },
+        {
+            "name": "Cyanide",
+            "ingredients": {
+                "Oil": 1,
+                "Ammonia": 1,
+                "Oxygen": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": true,
+                "temperature": 380
+            },
+            "type": "Toxins"
+        },
+        {
+            "name": "Formaldehyde",
+            "ingredients": {
+                "Ethanol": 1,
+                "Oxygen": 1,
+                "Silver": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": true,
+                "temperature": 425
+            },
+            "type": "Other Medicine"
+        },
+        {
+            "name": "Perfluorodecalin",
+            "ingredients": {
+                "Hydrogen": 1,
+                "Fluorine": 1,
+                "Oil": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": true,
+                "temperature": 374
+            },
+            "type": "Superior Medicine"
+        },
+        {
+            "name": "Rezadone",
+            "ingredients": {
+                "Carpotoxin": 1,
+                "Spaceacillin": 1,
+                "Copper": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Superior Medicine"
+        },
+        {
+            "name": "Holy Water",
+            "ingredients": {
+                "Water": 1,
+                "Mercury": 1,
+                "Wine": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Miscellaneous"
+        },
+        {
+            "name": "Strange Reagent",
+            "ingredients": {
+                "Omnizine": 1,
+                "Holy Water": 1,
+                "Unstable Mutagen": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Superior Medicine"
+        },
+        {
+            "name": "Pentetic Acid",
+            "ingredients": {
+                "Welding Fuel": 1,
+                "Chlorine": 1,
+                "Ammonia": 1,
+                "Formaldehyde": 1,
+                "Sodium": 1,
+                "Cyanide": 1
+            },
+            "output": 6,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Superior Medicine"
+        },
+        {
+            "name": "Degreaser",
+            "ingredients": {
+                "Oil": 1,
+                "Sterilizine": 1
+            },
+            "output": 2,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Other Medicine"
+        },
+        {
+            "name": "Sterilizine",
+            "ingredients": {
+                "Antihol": 2,
+                "Chlorine": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Other Medicine"
+        },
+        {
+            "name": "Diphenhydramine",
+            "ingredients": {
+                "Oil": 1,
+                "Carbon": 1,
+                "Bromine": 1,
+                "Diethylamine": 1,
+                "Ethanol": 1
+            },
+            "output": 5,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Other Medicine"
+        },
+        {
+            "name": "Ether",
+            "ingredients": {
+                "Sulphuric Acid": 1,
+                "Ethanol": 1,
+                "Oxygen": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Other Medicine"
+        },
+        {
+            "name": "Fomepizole",
+            "ingredients": {
+                "Acetic acid": 1,
+                "Mannitol": 1,
+                "Ammonia": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Other Medicine"
+        },
+        {
+            "name": "Acetic acid",
+            "ingredients": {
+                "Acetaldehyde": 1,
+                "Oxygen": 1,
+                "Nitrogen": 4
+            },
+            "output": 6,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Other Medicine"
+        },
+        {
+            "name": "Haloperidol",
+            "ingredients": {
+                "Potassium Iodide": 1,
+                "Aluminum": 1,
+                "Chlorine": 1,
+                "Fluorine": 1,
+                "Oil": 1
+            },
+            "output": 5,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Other Medicine"
+        },
+        {
+            "name": "Potassium Iodide",
+            "ingredients": {
+                "Potassium": 1,
+                "Iodine": 1
+            },
+            "output": 2,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Other Medicine"
+        },
+        {
+            "name": "Teporone",
+            "ingredients": {
+                "Acetone": 1,
+                "Silicon": 1,
+                "Plasma": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Other Medicine"
+        },
+        {
+            "name": "Calomel",
+            "ingredients": {
+                "Mercury": 1,
+                "Chlorine": 1
+            },
+            "output": 2,
+            "heat": {
+                "required": true,
+                "temperature": 374
+            },
+            "type": "Other Medicine"
+        },
+        {
+            "name": "Virus Food",
+            "ingredients": {
+                "Water": 1,
+                "Milk": 1,
+                "Oxygen": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Other Medicine"
+        },
+        {
+            "name": "Aranesp",
+            "ingredients": {
+                "Epinephrine": 1,
+                "Atropine": 1,
+                "Insulin": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Drugs"
+        },
+        {
+            "name": "Crank",
+            "ingredients": {
+                "Diphenhydramine": 1,
+                "Ammonia": 1,
+                "Lithium": 1,
+                "Sulphuric Acid": 1,
+                "Welding Fuel": 1
+            },
+            "output": 5,
+            "heat": {
+                "required": true,
+                "temperature": 390
+            },
+            "type": "Drugs"
+        },
+        {
+            "name": "Fliptonium",
+            "ingredients": {
+                "Ephedrine": 1,
+                "Liquid Dark Matter": 1,
+                "Chocolate": 1,
+                "Gin & Sonic": 1
+            },
+            "output": 4,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Drugs"
+        },
+        {
+            "name": "Liquid Dark Matter",
+            "ingredients": {
+                "Plasma": 1,
+                "Radium": 1,
+                "Carbon": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Drugs"
+        },
+        {
+            "name": "Jestosterone",
+            "ingredients": {
+                "Blood": 1,
+                "Banana Juice": 1,
+                "Salt": 1,
+                "Space Drugs": 1,
+                "Space Lube": 1
+            },
+            "output": 5,
+            "heat": {
+                "required": true,
+                "temperature": 374
+            },
+            "type": "Drugs"
+        },
+        {
+            "name": "Space Drugs",
+            "ingredients": {
+                "Lithium": 1,
+                "Mercury": 1,
+                "Sugar": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Drugs"
+        },
+        {
+            "name": "Space Lube",
+            "ingredients": {
+                "Oxygen": 1,
+                "Silicon": 1,
+                "Water": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Miscellaneous"
+        },
+        {
+            "name": "Jenkem",
+            "ingredients": {
+                "Toilet Water": 1,
+                "Water": 1,
+                "Ammonia": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Drugs"
+        },
+        {
+            "name": "Krokodil",
+            "ingredients": {
+                "Diphenhydramine": 1,
+                "Morphine": 1,
+                "Space Cleaner": 1,
+                "Potassium": 1,
+                "Phosphorus": 1,
+                "Welding Fuel": 1
+            },
+            "output": 6,
+            "heat": {
+                "required": true,
+                "temperature": 390
+            },
+            "type": "Drugs"
+        },
+        {
+            "name": "Lysergic acid diethylamide",
+            "ingredients": {
+                "Diethylamine": 1,
+                "Fungus": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Drugs"
+        },
+        {
+            "name": "Mate de Coca",
+            "ingredients": {
+                "Water": 5,
+                "Coca Extract": 1
+            },
+            "output": 6,
+            "heat": {
+                "required": true,
+                "temperature": 400
+            },
+            "type": "Drugs"
+        },
+        {
+            "name": "Surge",
+            "ingredients": {
+                "Thermite": 3,
+                "Uranium": 1,
+                "Fluorosurfactant": 1,
+                "Sulphuric Acid": 1
+            },
+            "output": 6,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Drugs"
+        },
+        {
+            "name": "Ultra Lube",
+            "ingredients": {
+                "Space Lube": 2,
+                "Formaldehyde": 1,
+                "Cryostylane": 1
+            },
+            "output": 4,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Drugs"
+        },
+        {
+            "name": "Crack",
+            "ingredients": {
+                "Coca Extract": 5,
+                "Ammonia": 3,
+                "Welding Fuel": 2,
+                "Water": 5
+            },
+            "output": 5,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Drugs"
+        },
+        {
+            "name": "Cocaine",
+            "ingredients": {
+                "Crack": 1,
+                "Diethylamine": 1
+            },
+            "output": 1,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Drugs"
+        },
+        {
+            "name": "Stabilizing Agent",
+            "ingredients": {
+                "Iron": 1,
+                "Oxygen": 1,
+                "Hydrogen": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Boom"
+        },
+        {
+            "name": "Azide",
+            "ingredients": {
+                "Chlorine": 1,
+                "Oxygen": 1,
+                "Nitrogen": 1,
+                "Ammonia": 1,
+                "Sodium": 1,
+                "Silver": 1
+            },
+            "output": 1,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Boom"
+        },
+        {
+            "name": "Black Powder",
+            "ingredients": {
+                "Saltpetre": 1,
+                "Charcoal": 1,
+                "Sulfur": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Boom"
+        },
+        {
+            "name": "Bee Explosion",
+            "ingredients": {
+                "Honey": 1,
+                "Strange Reagent": 1,
+                "Radium": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Boom"
+        },
+        {
+            "name": "Chlorine Trifluoride",
+            "ingredients": {
+                "Chlorine": 1,
+                "Fluorine": 3
+            },
+            "output": 4,
+            "heat": {
+                "required": true,
+                "temperature": 424
+            },
+            "type": "Boom"
+        },
+        {
+            "name": "Explosion",
+            "ingredients": {
+                "Potassium": 1,
+                "Water": 1
+            },
+            "output": 2,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Boom"
+        },
+        {
+            "name": "EMP",
+            "ingredients": {
+                "Iron": 1,
+                "Uranium": 1
+            },
+            "output": 2,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Boom"
+        },
+        {
+            "name": "Firefighting Foam",
+            "ingredients": {
+                "Chlorine": 1,
+                "Carbon": 1,
+                "Sulfur": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Boom"
+        },
+        {
+            "name": "Flash Powder",
+            "ingredients": {
+                "Aluminium": 1,
+                "Chlorine": 1,
+                "Potassium": 1,
+                "Sulfur": 1
+            },
+            "output": 4,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Boom"
+        },
+        {
+            "name": "Fluorosurfactant",
+            "ingredients": {
+                "Carbon": 2,
+                "Fluorine": 2,
+                "Sulphuric Acid": 1
+            },
+            "output": 5,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Boom"
+        },
+        {
+            "name": "Napalm",
+            "ingredients": {
+                "Sugar": 1,
+                "Welding Fuel": 1,
+                "Ethanol": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Boom"
+        },
+        {
+            "name": "Nitroglycerin",
+            "ingredients": {
+                "Glycerol": 1,
+                "FluoroSulfuric Acid": 1,
+                "Sulphuric Acid": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Boom"
+        },
+        {
+            "name": "Phlogiston",
+            "ingredients": {
+                "Phosphorus": 1,
+                "Sulphuric Acid": 1,
+                "Plasma": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Boom"
+        },
+        {
+            "name": "Phlogiston dust",
+            "ingredients": {
+                "Phlogiston": 1,
+                "Charcoal": 1,
+                "Phosphorus": 1,
+                "Sulfur": 1
+            },
+            "output": 4,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Boom"
+        },
+        {
+            "name": "Pyrosium",
+            "ingredients": {
+                "Plasma": 1,
+                "Radium": 1,
+                "Phosphorus": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Boom"
+        },
+        {
+            "name": "Shock Explosion",
+            "ingredients": {
+                "Teslium": 5,
+                "Uranium": 5
+            },
+            "output": 10,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Boom"
+        },
+        {
+            "name": "Sonic Powder",
+            "ingredients": {
+                "Oxygen": 1,
+                "Cola": 1,
+                "Phosphorus": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Boom"
+        },
+        {
+            "name": "Smoke",
+            "ingredients": {
+                "Phosphorus": 1,
+                "Potassium": 1,
+                "Sugar": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Boom"
+        },
+        {
+            "name": "Sorium",
+            "ingredients": {
+                "Mercury": 1,
+                "Oxygen": 1,
+                "Nitrogen": 1,
+                "Carbon": 1
+            },
+            "output": 4,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Boom"
+        },
+        {
+            "name": "Teslium",
+            "ingredients": {
+                "Plasma": 1,
+                "Silver": 1,
+                "Black Powder": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": true,
+                "temperature": 400
+            },
+            "type": "Boom"
+        },
+        {
+            "name": "Thermite",
+            "ingredients": {
+                "Aluminium": 1,
+                "Iron": 1,
+                "Oxygen": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Boom"
+        },
+        {
+            "name": "Capulettium",
+            "ingredients": {
+                "Neurotoxin": 1,
+                "Hydrogen": 1,
+                "Chlorine": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Toxins"
+        },
+        {
+            "name": "Neurotoxin",
+            "ingredients": {
+                "Space Drugs": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": true,
+                "temperature": 674
+            },
+            "type": "Toxins"
+        },
+        {
+            "name": "Capulettium Plus",
+            "ingredients": {
+                "Capulettium": 1,
+                "Ephedrine": 1,
+                "Methamphetamine": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Toxins"
+        },
+        {
+            "name": "FluoroSulfuric Acid",
+            "ingredients": {
+                "Fluorine": 1,
+                "Hydrogen": 1,
+                "Potassium": 1,
+                "Sulphuric Acid": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": true,
+                "temperature": 380
+            },
+            "type": "Toxins"
+        },
+        {
+            "name": "Glyphosate",
+            "ingredients": {
+                "Chlorine": 1,
+                "Phosphorus": 1,
+                "Formaldehyde": 1,
+                "Ammonia": 1
+            },
+            "output": 4,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Toxins"
+        },
+        {
+            "name": "Atrazine",
+            "ingredients": {
+                "Chlorine": 1,
+                "Hydrogen": 1,
+                "Nitrogen": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Toxins"
+        },
+        {
+            "name": "Heparin",
+            "ingredients": {
+                "Meatslurry": 1,
+                "Phenol": 1,
+                "Sulphuric Acid": 1,
+                "Sugar": 1
+            },
+            "output": 4,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Toxins"
+        },
+        {
+            "name": "Meatslurry",
+            "ingredients": {
+                "Corn Starch": 1,
+                "Blood": 1
+            },
+            "output": 2,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Other"
+        },
+        {
+            "name": "Itching Powder",
+            "ingredients": {
+                "Welding Fuel": 1,
+                "Ammonia": 1,
+                "Fungus": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Toxins"
+        },
+        {
+            "name": "Pest Killer",
+            "ingredients": {
+                "Toxin": 1,
+                "Ethanol": 4
+            },
+            "output": 5,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Toxins"
+        },
+        {
+            "name": "Rotatium",
+            "ingredients": {
+                "Lysergic acid diethylamide": 1,
+                "Teslium": 1,
+                "Methamphetamine": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Toxins"
+        },
+        {
+            "name": "Sarin",
+            "ingredients": {
+                "Acetone": 1,
+                "Atrazine": 1,
+                "Welding Fuel": 1,
+                "Chlorine": 1,
+                "Fluorine": 1,
+                "Hydrogen": 1,
+                "Oxygen": 1,
+                "Phosphorus": 1
+            },
+            "output": 8,
+            "heat": {
+                "required": true,
+                "temperature": 374
+            },
+            "type": "Toxins"
+        },
+        {
+            "name": "Sulfonal",
+            "ingredients": {
+                "Acetone": 1,
+                "Diethylamine": 1,
+                "Sulfur": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Toxins"
+        },
+        {
+            "name": "Corn Syrup",
+            "ingredients": {
+                "Corn Starch": 1,
+                "Sulphuric Acid": 1
+            },
+            "output": 2,
+            "heat": {
+                "required": true,
+                "temperature": 374
+            },
+            "type": "Food"
+        },
+        {
+            "name": "Cola",
+            "ingredients": {
+                "Carbon": 1,
+                "Oxygen": 1,
+                "Water": 1,
+                "Sugar": 1
+            },
+            "output": 4,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Food"
+        },
+        {
+            "name": "Synthanol",
+            "ingredients": {
+                "Plasma": 1,
+                "Welding Fuel": 1,
+                "Space Lube": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Food"
+        },
+        {
+            "name": "Lipolicide",
+            "ingredients": {
+                "Mercury": 1,
+                "Diethylamine": 1,
+                "Ephedrine": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Food"
+        },
+        {
+            "name": "Colorful Reagent",
+            "ingredients": {
+                "Plasma": 1,
+                "Radium": 1,
+                "Space Drugs": 1,
+                "Cryoxadone": 1,
+                "Triple Citrus": 1,
+                "Stabilizing Agent": 1
+            },
+            "output": 6,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Miscellaneous"
+        },
+        {
+            "name": "Condensed Capsaicin",
+            "ingredients": {
+                "Capsaicin Oil": 2,
+                "Plasma": 5
+            },
+            "output": 7,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Miscellaneous"
+        },
+        {
+            "name": "Corgium",
+            "ingredients": {
+                "Nutriment": 1,
+                "Strange Reagent": 1,
+                "Colorful Reagent": 1,
+                "Blood": 1
+            },
+            "output": 4,
+            "heat": {
+                "required": true,
+                "temperature": 374
+            },
+            "type": "Miscellaneous"
+        },
+        {
+            "name": "Drying Agent",
+            "ingredients": {
+                "Plasma": 2,
+                "Ethanol": 1,
+                "Sodium": 1
+            },
+            "output": 4,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Miscellaneous"
+        },
+        {
+            "name": "Flaptonium",
+            "ingredients": {
+                "Egg": 1,
+                "Colorful Reagent": 1,
+                "Strange Reagent": 1,
+                "Chicken Noodle Soup": 1,
+                "Blood": 1
+            },
+            "output": 5,
+            "heat": {
+                "required": true,
+                "temperature": 374
+            },
+            "type": "Miscellaneous"
+        },
+        {
+            "name": "Hairgrownium",
+            "ingredients": {
+                "Carpet": 1,
+                "Synthflesh": 1,
+                "Ephedrine": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Miscellaneous"
+        },
+        {
+            "name": "Carpet",
+            "ingredients": {
+                "Fungus": 1,
+                "Blood": 1
+            },
+            "output": 2,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Miscellaneous"
+        },
+        {
+            "name": "Life",
+            "ingredients": {
+                "Strange Reagent": 1,
+                "Synthflesh": 1,
+                "Blood": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": true,
+                "temperature": 374
+            },
+            "type": "Miscellaneous"
+        },
+        {
+            "name": "Lye",
+            "ingredients": {
+                "Sodium": 1,
+                "Hydrogen": 1,
+                "Oxygen": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Miscellaneous"
+        },
+        {
+            "name": "Plastic Polymers",
+            "ingredients": {
+                "Oil": 5,
+                "Sulphuric Acid": 2,
+                "Ash": 3
+            },
+            "output": 10,
+            "heat": {
+                "required": true,
+                "temperature": 374
+            },
+            "type": "Miscellaneous"
+        },
+        {
+            "name": "Pure Love",
+            "ingredients": {
+                "Pure Hugs": 1,
+                "Chocolate": 1
+            },
+            "output": 2,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Miscellaneous"
+        },
+        {
+            "name": "Quantum Hair Dye",
+            "ingredients": {
+                "Hairgrownium": 1,
+                "Colorful Reagent": 1
+            },
+            "output": 2,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Miscellaneous"
+        },
+        {
+            "name": "Soapification",
+            "ingredients": {
+                "Lye": 10,
+                "Liquid Gibs": 10
+            },
+            "output": 20,
+            "heat": {
+                "required": true,
+                "temperature": 374
+            },
+            "type": "Miscellaneous"
+        },
+        {
+            "name": "Super Hairgrownium",
+            "ingredients": {
+                "Hairgrownium": 1,
+                "Iron": 1,
+                "Methamphetamine": 1
+            },
+            "output": 3,
+            "heat": {
+                "required": false,
+                "temperature": 0
+            },
+            "type": "Miscellaneous"
+        },
+        {
+            "name": "Ash",
+            "ingredients": {
+                "Oil": 1
+            },
+            "output": 1,
+            "heat": {
+                "required": true,
+                "temperature": 874
+            },
+            "type": "Component"
+        },
+        {
+            "name": "Methamphetamine",
+            "ingredients": {
+                "Ephedrine": 1,
+                "Iodine": 1,
+                "Phosphorus": 1,
+                "Hydrogen": 1
+            },
+            "output": 4,
+            "heat": {
+                "required": true,
+                "temperature": 374
+            },
+            "type": "Drugs"
+        }
+    ]
+}
