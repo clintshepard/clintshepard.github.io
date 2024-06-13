@@ -139,3 +139,14 @@ pre {
 .recipe-button:hover {
     background-color: #ddd;
 }
+
+.panels {
+    display: flex;
+    flex-direction: row;
+}
+
+.right-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
