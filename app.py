@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, jsonify
 import json
+import os
 
 app = Flask(__name__)
 
@@ -71,7 +72,7 @@ def format_ingredients(ingredients, level=0, include_sublevels=True):
 
 @app.route('/')
 def index():
-    return render_template('index.html', recipes_by_type=sorted_recipes_by_type, base_ingredients=base_ingredients)
+    return render_template(os.path.join(os.getcwd(), 'index.html'), recipes_by_type=sorted_recipes_by_type, base_ingredients=base_ingredients)
 
 
 @app.route('/calculate', methods=['POST'])
