@@ -128,7 +128,19 @@
             const quantity = document.getElementById('quantity').value;
             const includeSublevels = document.getElementById('hide_base_ingredients').checked;
             const result = calculateIngredients(substance, quantity);
-            const formattedResult = formatIngredients(result, includeSublevels);
+            let formattedResult = formatIngredients(result, includeSublevels);
+
+            // Добавление информации о температуре и комментарии, если они есть в рецепте
+            if (recipes[substance]) {
+                const heatInfo = recipes[substance].heat;
+                if (heatInfo && heatInfo.required) {
+                    formattedResult += `\nНагреть до ${heatInfo.temperature}°K.`;
+                }
+                if (substance in comments) {
+                    formattedResult += `\nКомментарий: ${comments[substance]}`;
+                }
+            }
+
             document.getElementById('result').innerText = formattedResult;
         }
 
