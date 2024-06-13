@@ -1,75 +1,4 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-}
-
-
-.container {
-    display: flex;
-    justify-content: space-between;
-}
-
-form {
-    margin-bottom: 20px;
-}
-
-label {
-    display: block;
-    margin-top: 10px;
-}
-
-input[type="text"], input[type="number"] {
-    display: block;
-    margin-bottom: 10px;
-    padding: 5px;
-    box-sizing: border-box;
-}
-
-button {
-    margin-top: 10px;
-    padding: 10px;
-}
-
-pre {
-    background: #f4f4f4;
-    padding: 10px;
-    border: 1px solid #ddd;
-}
-
-.quantity-control {
-    display: flex;
-    align-items: center;
-}
-
-.quantity-buttons {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-}
-.quantity-buttons2 {
-    display: flex;
-    flex-direction: column;
-}
-
-.quantity-buttons button {
-    width: 50px;
-    height: 30px;
-    margin: 2px 0;
-}
-
-#recipe_buttons {
-    margin-bottom: 20px;
-}
-
-.recipe-button {
-    margin: 5px;
-    padding: 10px;
-    border: 1px solid #333;
-    background-color: #f0f0f0;
-    cursor: pointer;
-}
-
-body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
@@ -92,6 +21,8 @@ body {
 
         .container {
             display: flex;
+            flex-direction: column;
+            align-items: center;
             padding: 20px;
         }
 
@@ -107,6 +38,7 @@ body {
 
         .bottom-panel {
             padding: 10px;
+            width: 100%;
         }
 
         .recipe-button {
@@ -119,10 +51,12 @@ body {
         .recipe-buttons-container {
             display: flex;
             flex-wrap: wrap;
+            justify-content: center;
         }
 
         .recipe-buttons-container h2 {
             width: 100%;
+            text-align: center;
             margin-top: 10px;
         }
 
@@ -141,7 +75,3 @@ body {
         .theme-toggle-button.dark {
             background-color: #444;
         }
-
-.recipe-button:hover {
-    background-color: #ddd;
-}
