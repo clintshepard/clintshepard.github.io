@@ -1,107 +1,118 @@
-from flask import Flask, render_template, request, jsonify
-import json
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Химический калькулятор</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
 
-app = Flask(__name__)
+    <button class="theme-toggle-button" onclick="toggleTheme()">Темная тема</button>
 
-# Загрузка данных из JSON файла
-with open('recipes.json', 'r', encoding='utf-8') as file:
-    data = json.load(file)
+    <div class="container">
+        <div class="left-panel">
+            <form id="calc-form">
+                <input type="text" id="substance" name="substance">
+                <label for="hide_base_ingredients">
+                    <input type="checkbox" id="hide_base_ingredients" onchange="calculate()">
+                    Показать все уровни
+                </label>
+                <label for="quantity">Количество:</label>
+                <input type="number" id="quantity" name="quantity" value="0" onkeydown="handleKeyDown(event)">
+                <div class="quantity-control">
+                    <div class="quantity-buttons">
+                        <div class="quantity-buttons2">
+                            <button type="button" onclick="changeQuantity(-1)">-1</button>
+                            <button type="button" onclick="changeQuantity(-5)">-5</button>
+                            <button type="button" onclick="changeQuantity(-10)">-10</button>
+                            <button type="button" onclick="changeQuantity(-20)">-20</button>
+                            <button type="button" onclick="changeQuantity(-50)">-50</button>
+                            <button type="button" onclick="changeQuantity(-100)">-100</button>
+                            <button type="button" onclick="changeQuantity(100)">+100</button>
+                            <button type="button" onclick="changeQuantity(50)">+50</button>
+                            <button type="button" onclick="changeQuantity(20)">+20</button>
+                            <button type="button" onclick="changeQuantity(10)">+10</button>
+                            <button type="button" onclick="changeQuantity(5)">+5</button>
+                            <button type="button" onclick="changeQuantity(1)">+1</button>
+                        </div>
+                        <div class="result-class">
+                            <pre id="result"></pre>
+                        </div>
 
-base_ingredients = data["base_ingredients"]
-recipes = data["recipes"]
-comments = data["comments"]
+                    </div>
+                </div>
+            </form>
+        </div>
 
-# Порядок сортировки категорий
-category_order = [
-    "Component", "Basic", "Superior Medicine", "Other Medicine",
-    "Drugs", "Toxins", "Boom", "Food", "Miscellaneous"
-]
+        <div class="right-panel">
+            <!-- Placeholder for future content -->
+        </div>
+    </div>
 
-# Сортировка рецептов по типам
-recipes_by_type = {}
-for recipe_name, recipe_info in recipes.items():
-    recipe_type = recipe_info.get('type')
-    if recipe_type not in recipes_by_type:
-        recipes_by_type[recipe_type] = []
-    recipes_by_type[recipe_type].append(recipe_name)
+    <div class="bottom-panel">
+        <div id="recipe_buttons" class="recipe-buttons-container">
+            {% for recipe_type, recipes in recipes_by_type.items() %}
+                <h2>{{ recipe_type }}</h2>
+                {% for recipe in recipes %}
+                    <button type="button" class="recipe-button" onclick="selectRecipe('{{ recipe }}')">{{ recipe }}</button>
+                {% endfor %}
+            {% endfor %}
+        </div>
+    </div>
 
-# Сортировка словаря по заданному порядку категорий
-sorted_recipes_by_type = {category: recipes_by_type[category] for category in category_order if category in recipes_by_type}
+    <script>
+        function selectRecipe(recipe) {
+            document.getElementById('substance').value = recipe;
+            calculate();
+        }
 
+        function calculate() {
+            const substance = document.getElementById('substance').value;
+            const quantity = document.getElementById('quantity').value;
+            const includeSublevels = document.getElementById('hide_base_ingredients').checked;
 
-def calculate_ingredients(substance, quantity):
-    if substance in base_ingredients:
-        return {substance: {"quantity": quantity, "components": {}}}
+            fetch('/calculate', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ substance, quantity, includeSublevels })
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('result').innerText = data.result;
+            });
+        }
 
-    if substance not in recipes:
-        return {}
+        function changeQuantity(amount) {
+            const quantityInput = document.getElementById('quantity');
+            let currentQuantity = parseInt(quantityInput.value) || 0;
+            currentQuantity += amount;
+            if (currentQuantity < 0) currentQuantity = 0;
+            quantityInput.value = currentQuantity;
+            calculate();
+        }
 
-    result = {}
-    ingredients = recipes[substance]["ingredients"]
-    output_qty = recipes[substance]["output"]
-    multiplier = quantity / output_qty
-
-    for ingredient, amount in ingredients.items():
-        sub_result = calculate_ingredients(ingredient, amount * multiplier)
-        if ingredient in result:
-            for sub_ingredient, sub_info in sub_result.items():
-                if sub_ingredient in result[ingredient]["components"]:
-                    result[ingredient]["components"][sub_ingredient]["quantity"] += sub_info["quantity"]
-                else:
-                    result[ingredient]["components"][sub_ingredient] = sub_info
-        else:
-            result[ingredient] = {
-                "quantity": amount * multiplier,
-                "components": sub_result
+        function handleKeyDown(event) {
+            if (event.key === 'Enter') {
+                event.preventDefault(); // Предотвращает отправку формы при нажатии Enter
+                calculate();
             }
+        }
 
-    return result
-
-
-def format_ingredients(ingredients, level=0, include_sublevels=True):
-    result_str = ""
-    indent = "----" * level
-    for ingredient, info in ingredients.items():
-        result_str += f"{indent}{ingredient}: {info['quantity']:.2f}\n"
-        if include_sublevels and info["components"]:
-            if ingredient not in base_ingredients:
-                result_str += format_ingredients(info["components"], level + 1, include_sublevels)
-    return result_str
-
-
-@app.route('/')
-def index():
-    return render_template('index.html', recipes_by_type=sorted_recipes_by_type, base_ingredients=base_ingredients)
-
-
-@app.route('/calculate', methods=['POST'])
-def calculate():
-    data = request.json
-    substance = data['substance']
-    quantity = data['quantity']
-    include_sublevels = data.get('includeSublevels', True)
-
-    try:
-        quantity = float(quantity)  # Преобразование строки в число с плавающей точкой
-    except ValueError:
-        return jsonify(result="Некорректное количество. Введите числовое значение.")
-
-    if not substance:
-        return jsonify(result="Выберите вещество.")
-
-    ingredients = calculate_ingredients(substance, quantity)
-    result_str = format_ingredients(ingredients, include_sublevels=include_sublevels)
-
-    if substance in recipes:
-        heat_info = recipes[substance].get("heat", {})
-        if heat_info.get("required", False):
-            result_str += f"\nНагреть до {heat_info['temperature']}°K."
-
-    if substance in comments:
-        result_str += f"\nКомментарий: {comments[substance]}"
-
-    return jsonify(result=result_str)
-
-
-if __name__ == '__main__':
-    app.run(debug=True)
+        function toggleTheme() {
+            const body = document.body;
+            const button = document.querySelector('.theme-toggle-button');
+            body.classList.toggle('dark-theme');
+            if (body.classList.contains('dark-theme')) {
+                button.textContent = 'Светлая тема';
+                button.classList.add('dark');
+            } else {
+                button.textContent = 'Темная тема';
+                button.classList.remove('dark');
+            }
+        }
+    </script>
+</body>
+</html>
