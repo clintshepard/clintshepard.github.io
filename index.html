@@ -23,49 +23,51 @@
     <button class="theme-toggle-button" onclick="toggleTheme()">Светлая тема</button>
 
     <div class="container">
-        <div class="left-panel">
-            <form id="calc-form">
-                <input type="text" id="substance" name="substance">
-                <label for="hide_base_ingredients">
-                    <input type="checkbox" id="hide_base_ingredients" onchange="calculate()">
-                    Показать все уровни ингредиентов
-                </label>
-                <label for="quantity">Количество:</label>
-                <input type="number" id="quantity" name="quantity" value="0" onkeydown="handleKeyDown(event)">
-                <div class="quantity-control">
-                    <div class="quantity-buttons">
-                        <div class="quantity-buttons2">
-                            <button type="button" onclick="changeQuantity(-1)">-1</button>
-                            <button type="button" onclick="changeQuantity(-5)">-5</button>
-                            <button type="button" onclick="changeQuantity(-10)">-10</button>
-                            <button type="button" onclick="changeQuantity(-20)">-20</button>
-                            <button type="button" onclick="changeQuantity(-50)">-50</button>
-                            <button type="button" onclick="changeQuantity(-100)">-100</button>
-                            <button type="button" onclick="changeQuantity(100)">+100</button>
-                            <button type="button" onclick="changeQuantity(50)">+50</button>
-                            <button type="button" onclick="changeQuantity(20)">+20</button>
-                            <button type="button" onclick="changeQuantity(10)">+10</button>
-                            <button type="button" onclick="changeQuantity(5)">+5</button>
-                            <button type="button" onclick="changeQuantity(1)">+1</button>
-                        </div>
-                        <div class="result-class">
-                            <pre id="result"></pre>
+        <div class="panels">
+            <div class="left-panel">
+                <form id="calc-form">
+                    <input type="text" id="substance" name="substance">
+                    <label for="hide_base_ingredients">
+                        <input type="checkbox" id="hide_base_ingredients" onchange="calculate()">
+                        Показать все уровни ингредиентов
+                    </label>
+                    <label for="quantity">Количество:</label>
+                    <input type="number" id="quantity" name="quantity" value="0" onkeydown="handleKeyDown(event)">
+                    <div class="quantity-control">
+                        <div class="quantity-buttons">
+                            <div class="quantity-buttons2">
+                                <button type="button" onclick="changeQuantity(-1)">-1</button>
+                                <button type="button" onclick="changeQuantity(-5)">-5</button>
+                                <button type="button" onclick="changeQuantity(-10)">-10</button>
+                                <button type="button" onclick="changeQuantity(-20)">-20</button>
+                                <button type="button" onclick="changeQuantity(-50)">-50</button>
+                                <button type="button" onclick="changeQuantity(-100)">-100</button>
+                                <button type="button" onclick="changeQuantity(100)">+100</button>
+                                <button type="button" onclick="changeQuantity(50)">+50</button>
+                                <button type="button" onclick="changeQuantity(20)">+20</button>
+                                <button type="button" onclick="changeQuantity(10)">+10</button>
+                                <button type="button" onclick="changeQuantity(5)">+5</button>
+                                <button type="button" onclick="changeQuantity(1)">+1</button>
+                            </div>
+                            <div class="result-class">
+                                <pre id="result"></pre>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </form>
-        <div class="recipe-panel">
-            <div class="bottom-panel">
-                <div id="recipe_buttons" class="recipe-buttons-container">
-                    <h2 id="recipe_category_title"></h2>
+                </form>
+            <div class="recipe-panel">
+                <div class="bottom-panel">
+                    <div id="recipe_buttons" class="recipe-buttons-container">
+                        <h2 id="recipe_category_title"></h2>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="right-panel">
-            <img src="ad.jpg" alt="Your Image" style="max-width: 100%; height: auto;">
+            <div class="right-panel">
+                <img src="ad.jpg" alt="Your Image" style="max-width: 100%; height: auto;">
+            </div>
         </div>
     </div>
-
+    </div>
     <script>
         let baseIngredients = {};
         let recipes = {};
