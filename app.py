@@ -4,7 +4,7 @@ import json
 app = Flask(__name__)
 
 # Загрузка данных из JSON файла
-with open('/clintshepard.github.io/recipes.json', 'r', encoding='utf-8') as file:
+with open('./recipes.json', 'r', encoding='utf-8') as file:
     data = json.load(file)
 
 base_ingredients = data["base_ingredients"]
