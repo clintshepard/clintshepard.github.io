@@ -139,12 +139,7 @@
 
         // Загрузка JSON-файла
         fetch('recipes.json')
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-                return response.json();
-            })
+            .then(response => response.json())
             .then(data => {
                 baseIngredients = data.base_ingredients;
                 recipes = data.recipes;
@@ -185,11 +180,13 @@
 
         function updateRecipeButtons() {
             const recipeButtonsContainer = document.getElementById('recipe_buttons');
-            recipeButtonsContainer.innerHTML = '';
+            recipeButtonsContainer.innerHTML = ''; // Очистка контейнера перед добавлением кнопок
+
             for (const [category, recipes] of Object.entries(sortedRecipesByType)) {
                 const categoryTitle = document.createElement('h2');
                 categoryTitle.textContent = category;
                 recipeButtonsContainer.appendChild(categoryTitle);
+
                 recipes.forEach(recipe => {
                     const button = document.createElement('button');
                     button.type = 'button';
