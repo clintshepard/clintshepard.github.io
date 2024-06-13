@@ -6,7 +6,7 @@ body {
 
 .container {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
 form {
@@ -95,8 +95,8 @@ pre {
 }
 
 .recipe-panel {
-    flex: 1;
-    padding: 10px;
+    direction: flex;
+    flex-direction: row;
 }
 
 .bottom-panel {
