@@ -69,78 +69,72 @@ pre {
     cursor: pointer;
 }
 
-body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
+.dark-theme {
+    background-color: #121212;
+    color: #e0e0e0;
+}
 
-        .dark-theme {
-            background-color: #121212;
-            color: #e0e0e0;
-        }
+.dark-theme input,
+.dark-theme button,
+.dark-theme select,
+.dark-theme textarea,
+.dark-theme pre {
+    background-color: #171717;
+    color: #e0e0e0;
+    border: 1px solid #444;
+}
 
-        .dark-theme input,
-        .dark-theme button,
-        .dark-theme select,
-        .dark-theme textarea,
-        .dark-theme pre {
-            background-color: #171717;
-            color: #e0e0e0;
-            border: 1px solid #444;
-        }
+.container {
+    display: flex;
+    padding: 20px;
+}
 
-        .container {
-            display: flex;
-            padding: 20px;
-        }
+.left-panel {
+    flex: 1;
+    padding: 10px;
+}
 
-        .left-panel {
-            flex: 1;
-            padding: 10px;
-        }
+.right-panel {
+    flex: 1;
+    padding: 10px;
+}
 
-        .right-panel {
-            flex: 1;
-            padding: 10px;
-        }
+.bottom-panel {
+    padding: 10px;
+}
 
-        .bottom-panel {
-            padding: 10px;
-        }
+.recipe-button {
+    display: inline-block;
+    margin: 2px;
+    padding: 5px 10px;
+    font-size: 0.9em;
+}
 
-        .recipe-button {
-            display: inline-block;
-            margin: 2px;
-            padding: 5px 10px;
-            font-size: 0.9em;
-        }
+.recipe-buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+}
 
-        .recipe-buttons-container {
-            display: flex;
-            flex-wrap: wrap;
-        }
+.recipe-buttons-container h2 {
+    width: 100%;
+    margin-top: 10px;
+}
 
-        .recipe-buttons-container h2 {
-            width: 100%;
-            margin-top: 10px;
-        }
+.theme-toggle-button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
-        .theme-toggle-button {
-            position: fixed;
-            top: 10px;
-            right: 10px;
-            padding: 10px 15px;
-            background-color: #007bff;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        .theme-toggle-button.dark {
-            background-color: #444;
-        }
+.theme-toggle-button.dark {
+    background-color: #444;
+}
 
 .recipe-button:hover {
     background-color: #ddd;
