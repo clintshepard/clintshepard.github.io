@@ -75,7 +75,7 @@
         let sortedRecipesByType = {};
 
         // Загрузка JSON-файла
-        fetch('C:\\Users\\Rukhlov\\PycharmProjects\\clintshepard.github.io-main\\recipes.json')
+        fetch('recipes.json')
             .then(response => response.json())
             .then(data => {
                 baseIngredients = data.base_ingredients;
