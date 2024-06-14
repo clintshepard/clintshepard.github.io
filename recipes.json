@@ -320,7 +320,7 @@
                 "Phenol": 1,
                 "Sulphuric Acid": 1
             },
-            "output": 3,
+            "output": 5,
             "heat": {
                 "required": false,
                 "temperature": 0
