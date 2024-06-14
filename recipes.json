@@ -1236,7 +1236,7 @@
                 "Hydrogen": 1,
                 "Chlorine": 1
             },
-            "output": 3,
+            "output": 1,
             "heat": {
                 "required": false,
                 "temperature": 0
@@ -1247,7 +1247,7 @@
             "ingredients": {
                 "Space Drugs": 1
             },
-            "output": 3,
+            "output": 1,
             "heat": {
                 "required": true,
                 "temperature": 674
@@ -1274,7 +1274,7 @@
                 "Potassium": 1,
                 "Sulphuric Acid": 1
             },
-            "output": 3,
+            "output": 4,
             "heat": {
                 "required": true,
                 "temperature": 380
@@ -1315,7 +1315,7 @@
                 "Sulphuric Acid": 1,
                 "Sugar": 1
             },
-            "output": 4,
+            "output": 2,
             "heat": {
                 "required": false,
                 "temperature": 0
