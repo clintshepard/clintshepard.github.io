@@ -191,7 +191,7 @@
 
         function formatIngredients(ingredients, includeSublevels = true, level = 0) {
             let resultStr = '';
-            const indent = '💨💨'.repeat(level);
+            const indent = '💨'.repeat(level);
             for (const [ingredient, info] of Object.entries(ingredients)) {
                 let ingredientStr = `🐖${indent}${ingredient}: ${info.quantity.toFixed(2)}`;
                 if (recipes[ingredient] && recipes[ingredient].heat.required) {
