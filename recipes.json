@@ -642,7 +642,7 @@
                 "Diethylamine": 1,
                 "Ethanol": 1
             },
-            "output": 5,
+            "output": 4,
             "heat": {
                 "required": false,
                 "temperature": 0
@@ -681,7 +681,7 @@
                 "Oxygen": 1,
                 "Nitrogen": 4
             },
-            "output": 6,
+            "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
@@ -696,7 +696,7 @@
                 "Fluorine": 1,
                 "Oil": 1
             },
-            "output": 5,
+            "output": 4,
             "heat": {
                 "required": false,
                 "temperature": 0
