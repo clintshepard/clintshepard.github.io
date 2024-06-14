@@ -305,7 +305,7 @@
                 "Mutadone": 3,
                 "Lithium": 1
             },
-            "output": 3,
+            "output": 4,
             "heat": {
                 "required": false,
                 "temperature": 0
@@ -345,7 +345,7 @@
                 "Ethanol": 1,
                 "Fungus": 1
             },
-            "output": 3,
+            "output": 2,
             "heat": {
                 "required": false,
                 "temperature": 0
