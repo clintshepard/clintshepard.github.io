@@ -193,13 +193,17 @@
             let resultStr = '';
             const indent = '----'.repeat(level);
             for (const [ingredient, info] of Object.entries(ingredients)) {
-                resultStr += `${indent}${ingredient}: ${info.quantity.toFixed(2)}\n`;
-                if (includeSublevels && info.components) {
-                    resultStr += formatIngredients(info.components, includeSublevels, level + 1);
-                }
-            }
-            return resultStr;
+                let ingredientStr = `${indent}${ingredient}: ${info.quantity.toFixed(2)}`;
+                if (recipes[ingredient] && recipes[ingredient].heat.required) {
+                    ingredientStr += ` [${recipes[ingredient].heat.temperature}°K]`;
         }
+        resultStr += ingredientStr + '\n';
+        if (includeSublevels && info.components) {
+            resultStr += formatIngredients(info.components, includeSublevels, level + 1);
+        }
+    }
+    return resultStr;
+}
 
         function changeQuantity(amount) {
             const quantityInput = document.getElementById('quantity');
