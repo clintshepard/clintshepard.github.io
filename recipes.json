@@ -199,7 +199,7 @@
                 "Ash": 1,
                 "Salt": 1
             },
-            "output": 3,
+            "output": 2,
             "heat": {
                 "required": true,
                 "temperature": 380
@@ -211,7 +211,7 @@
                 "Ethanol": 1,
                 "Charcoal": 1
             },
-            "output": 3,
+            "output": 2,
             "heat": {
                 "required": false,
                 "temperature": 0
@@ -225,7 +225,7 @@
                 "Oil": 1,
                 "Hydrogen": 1
             },
-            "output": 3,
+            "output": 4,
             "heat": {
                 "required": false,
                 "temperature": 0
@@ -241,7 +241,7 @@
                 "Chlorine": 1,
                 "Hydrogen": 1
             },
-            "output": 3,
+            "output": 6,
             "heat": {
                 "required": false,
                 "temperature": 0
@@ -373,7 +373,7 @@
                 "Oxygen": 1,
                 "Sulphuric Acid": 1
             },
-            "output": 3,
+            "output": 5,
             "heat": {
                 "required": false,
                 "temperature": 0
