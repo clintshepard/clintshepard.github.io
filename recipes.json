@@ -1383,7 +1383,7 @@
                 "Oxygen": 1,
                 "Phosphorus": 1
             },
-            "output": 8,
+            "output": 3,
             "heat": {
                 "required": true,
                 "temperature": 374
