@@ -1640,7 +1640,7 @@
         },
         "Ash": {
             "ingredients": {
-                "Oil": 1
+                "Oil": 2
             },
             "output": 1,
             "heat": {
