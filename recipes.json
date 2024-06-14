@@ -135,7 +135,7 @@
                 "Corn Oil": 3,
                 "Sulphuric Acid": 1
             },
-            "output": 3,
+            "output": 1,
             "heat": {
                 "required": false,
                 "temperature": 0
