@@ -1476,7 +1476,7 @@
                 "Capsaicin Oil": 2,
                 "Plasma": 5
             },
-            "output": 7,
+            "output": 1,
             "heat": {
                 "required": false,
                 "temperature": 0
@@ -1490,7 +1490,7 @@
                 "Colorful Reagent": 1,
                 "Blood": 1
             },
-            "output": 4,
+            "output": 3,
             "heat": {
                 "required": true,
                 "temperature": 374
@@ -1503,7 +1503,7 @@
                 "Ethanol": 1,
                 "Sodium": 1
             },
-            "output": 4,
+            "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
@@ -1556,7 +1556,7 @@
                 "Synthflesh": 1,
                 "Blood": 1
             },
-            "output": 3,
+            "output": 1,
             "heat": {
                 "required": true,
                 "temperature": 374
@@ -1618,7 +1618,7 @@
                 "Lye": 10,
                 "Liquid Gibs": 10
             },
-            "output": 20,
+            "output": 1,
             "heat": {
                 "required": true,
                 "temperature": 374
