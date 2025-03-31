@@ -1,1679 +1,1679 @@
 {
     "base_ingredients": [
-        "Nitrogen",
-        "Water",
-        "Iodine",
-        "Silicon",
-        "Sodium",
-        "Mercury",
-        "Silver",
-        "Uranium",
-        "Chlorine",
-        "Chromium",
-        "Ethanol",
-        "Fluorine",
-        "Phosphorus",
-        "Toxin",
-        "Carbon",
-        "Sulfur",
-        "Sugar",
-        "Plasma",
-        "Radium",
-        "Copper",
-        "Lithium",
-        "Potassium",
-        "Oxygen",
-        "Iron",
-        "Hydrogen",
-        "Aluminum",
-        "Bromine",
-        "Fungus",
-        "Corn Oil",
-        "Welding Fuel",
-        "Blood",
-        "Morphine",
-        "Wine",
-        "Carpotoxin",
-        "Omnizine",
-        "Milk",
-        "Insulin",
-        "Gin & Sonic",
-        "Toilet Water",
-        "Banana Juice",
-        "Coca Extract",
-        "Cola",
-        "Uranium",
-        "Honey",
-        "Corn Starch",
-        "Triple Citrus",
-        "Capsaicin Oil",
-        "Nutriment",
-        "Egg",
-        "Chicken Noodle Soup",
-        "Pure Hugs"
+        "Азот",
+        "Вода",
+        "Йод",
+        "Кремний",
+        "Натрий",
+        "Ртуть",
+        "Серебро",
+        "Уран",
+        "Хлор",
+        "Хром",
+        "Этанол",
+        "Фтор",
+        "Фосфор",
+        "Токсин",
+        "Углерод",
+        "Сера",
+        "Сахар",
+        "Плазма",
+        "Радий",
+        "Медь",
+        "Литий",
+        "Калий",
+        "Кислород",
+        "Железо",
+        "Водород",
+        "Алюминий",
+        "Бром",
+        "Грибок",
+        "Кукурузное масло",
+        "Сварочное топливо",
+        "Кровь",
+        "Морфин",
+        "Вино",
+        "Карпотоксин",
+        "Омнизин",
+        "Молоко",
+        "Инсулин",
+        "Джин и Соник",
+        "Туалетная вода",
+        "Банановый сок",
+        "Экстракт коки",
+        "Кола",
+        "Уран",
+        "Мёд",
+        "Кукурузный крахмал",
+        "Тройной цитрус",
+        "Масло капсаицина",
+        "Питательное вещество",
+        "Яйцо",
+        "Куриный суп с лапшой",
+        "Чистые объятия"
     ],
     "recipes": {
-        "Ammonia": {
+        "Аммиак": {
             "ingredients": {
-                "Hydrogen": 3,
-                "Nitrogen": 1
+                "Водород": 3,
+                "Азот": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Component"
+            "type": "Компонент"
         },
-        "Space Cleaner": {
+        "Космический очиститель": {
             "ingredients": {
-                "Ethanol": 1,
-                "Water": 1,
-                "Ammonia": 1
+                "Этанол": 1,
+                "Вода": 1,
+                "Аммиак": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Miscellaneous"
+            "type": "Разное"
         },
-        "Oil": {
+        "Масло": {
             "ingredients": {
-                "Welding Fuel": 1,
-                "Carbon": 1,
-                "Hydrogen": 1
+                "Сварочное топливо": 1,
+                "Углерод": 1,
+                "Водород": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Component"
+            "type": "Компонент"
         },
-        "Acetone": {
+        "Ацетон": {
             "ingredients": {
-                "Oil": 1,
-                "Welding Fuel": 1,
-                "Oxygen": 1
+                "Масло": 1,
+                "Сварочное топливо": 1,
+                "Кислород": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Component"
+            "type": "Компонент"
         },
-        "Acetaldehyde": {
+        "Ацетальдегид": {
             "ingredients": {
-                "Chromium": 1,
-                "Oxygen": 1,
-                "Copper": 1,
-                "Ethanol": 1
+                "Хром": 1,
+                "Кислород": 1,
+                "Медь": 1,
+                "Этанол": 1
             },
             "output": 3,
             "heat": {
                 "required": true,
                 "temperature": 548
             },
-            "type": "Component"
+            "type": "Компонент"
         },
-        "Diethylamine": {
+        "Диэтиламин": {
             "ingredients": {
-                "Ammonia": 1,
-                "Ethanol": 1
+                "Аммиак": 1,
+                "Этанол": 1
             },
             "output": 2,
             "heat": {
                 "required": true,
                 "temperature": 374
             },
-            "type": "Component"
+            "type": "Компонент"
         },
-        "Glycerol": {
+        "Глицерин": {
             "ingredients": {
-                "Corn Oil": 3,
-                "Sulphuric Acid": 1
+                "Кукурузное масло": 3,
+                "Серная кислота": 1
             },
             "output": 1,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Component"
+            "type": "Компонент"
         },
-        "Phenol": {
+        "Фенол": {
             "ingredients": {
-                "Water": 1,
-                "Chlorine": 1,
-                "Oil": 1
+                "Вода": 1,
+                "Хлор": 1,
+                "Масло": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Component"
+            "type": "Компонент"
         },
-        "Saltpetre": {
+        "Селитра": {
             "ingredients": {
-                "Potassium": 1,
-                "Nitrogen": 1,
-                "Oxygen": 3
+                "Калий": 1,
+                "Азот": 1,
+                "Кислород": 3
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Component"
+            "type": "Компонент"
         },
-        "Sulphuric Acid": {
+        "Серная кислота": {
             "ingredients": {
-                "Sulfur": 1,
-                "Oxygen": 1,
-                "Hydrogen": 1
+                "Сера": 1,
+                "Кислород": 1,
+                "Водород": 1
             },
             "output": 2,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Component"
+            "type": "Компонент"
         },
-        "Salt": {
+        "Соль": {
             "ingredients": {
-                "Sodium": 1,
-                "Chlorine": 1,
-                "Water": 1
+                "Натрий": 1,
+                "Хлор": 1,
+                "Вода": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Food"
+            "type": "Еда"
         },
-        "Charcoal": {
+        "Древесный уголь": {
             "ingredients": {
-                "Ash": 1,
-                "Salt": 1
+                "Пепел": 1,
+                "Соль": 1
             },
             "output": 2,
             "heat": {
                 "required": true,
                 "temperature": 380
             },
-            "type": "Basic Medicine"
+            "type": "Базовое лекарство"
         },
-        "Antihol": {
+        "Антихол": {
             "ingredients": {
-                "Ethanol": 1,
-                "Charcoal": 1
+                "Этанол": 1,
+                "Древесный уголь": 1
             },
             "output": 2,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Basic Medicine"
+            "type": "Базовое лекарство"
         },
-        "Ephedrine": {
+        "Эфедрин": {
             "ingredients": {
-                "Diethylamine": 1,
-                "Sugar": 1,
-                "Oil": 1,
-                "Hydrogen": 1
+                "Диэтиламин": 1,
+                "Сахар": 1,
+                "Масло": 1,
+                "Водород": 1
             },
             "output": 4,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Basic Medicine"
+            "type": "Базовое лекарство"
         },
-        "Epinephrine": {
+        "Эпинефрин": {
             "ingredients": {
-                "Phenol": 1,
-                "Acetone": 1,
-                "Diethylamine": 1,
-                "Oxygen": 1,
-                "Chlorine": 1,
-                "Hydrogen": 1
+                "Фенол": 1,
+                "Ацетон": 1,
+                "Диэтиламин": 1,
+                "Кислород": 1,
+                "Хлор": 1,
+                "Водород": 1
             },
             "output": 6,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Basic Medicine"
+            "type": "Базовое лекарство"
         },
-        "Liquid Solder": {
+        "Жидкий припой": {
             "ingredients": {
-                "Ethanol": 1,
-                "Copper": 1,
-                "Silver": 1
+                "Этанол": 1,
+                "Медь": 1,
+                "Серебро": 1
             },
             "output": 3,
             "heat": {
                 "required": true,
                 "temperature": 380
             },
-            "type": "Basic Medicine"
+            "type": "Базовое лекарство"
         },
-        "Mannitol": {
+        "Маннитол": {
             "ingredients": {
-                "Hydrogen": 1,
-                "Water": 1,
-                "Sugar": 1
+                "Водород": 1,
+                "Вода": 1,
+                "Сахар": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Basic Medicine"
+            "type": "Базовое лекарство"
         },
-        "Unstable Mutagen": {
+        "Нестабильный мутаген": {
             "ingredients": {
-                "Chlorine": 1,
-                "Plasma": 1,
-                "Radium": 1
+                "Хлор": 1,
+                "Плазма": 1,
+                "Радий": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Other Medicine"
+            "type": "Другое лекарство"
         },
-        "Mutadone": {
+        "Мутадон": {
             "ingredients": {
-                "Unstable Mutagen": 1,
-                "Acetone": 1,
-                "Bromine": 1
+                "Нестабильный мутаген": 1,
+                "Ацетон": 1,
+                "Бром": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Other Medicine"
+            "type": "Другое лекарство"
         },
-        "Stable Mutagen": {
+        "Стабильный мутаген": {
             "ingredients": {
-                "Mutadone": 3,
-                "Lithium": 1
+                "Мутадон": 3,
+                "Литий": 1
             },
             "output": 4,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Other Medicine"
+            "type": "Другое лекарство"
         },
-        "Atropine": {
+        "Атропин": {
             "ingredients": {
-                "Ethanol": 1,
-                "Acetone": 1,
-                "Diethylamine": 1,
-                "Phenol": 1,
-                "Sulphuric Acid": 1
+                "Этанол": 1,
+                "Ацетон": 1,
+                "Диэтиламин": 1,
+                "Фенол": 1,
+                "Серная кислота": 1
             },
             "output": 5,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Superior Medicine"
+            "type": "Превосходное лекарство"
         },
-        "Saline-Glucose solution": {
+        "Солево-глюкозный раствор": {
             "ingredients": {
-                "Salt": 1,
-                "Water": 1,
-                "Sugar": 1
+                "Соль": 1,
+                "Вода": 1,
+                "Сахар": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Basic Medicine"
+            "type": "Базовое лекарство"
         },
-        "Spaceacillin": {
+        "Спасациллин": {
             "ingredients": {
-                "Ethanol": 1,
-                "Fungus": 1
+                "Этанол": 1,
+                "Грибок": 1
             },
             "output": 2,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Basic Medicine"
+            "type": "Базовое лекарство"
         },
-        "Oculine": {
+        "Окулин": {
             "ingredients": {
-                "Atropine": 1,
-                "Spaceacillin": 1,
-                "Saline-Glucose Solutinon": 1
+                "Атропин": 1,
+                "Спасациллин": 1,
+                "Солево-глюкозный раствор": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Basic Medicine"
+            "type": "Базовое лекарство"
         },
-        "Salicylic Acid": {
+        "Салициловая кислота": {
             "ingredients": {
-                "Sodium": 1,
-                "Phenol": 1,
-                "Carbon": 1,
-                "Oxygen": 1,
-                "Sulphuric Acid": 1
+                "Натрий": 1,
+                "Фенол": 1,
+                "Углерод": 1,
+                "Кислород": 1,
+                "Серная кислота": 1
             },
             "output": 5,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Other Medicine"
+            "type": "Другое лекарство"
         },
-        "Salbutamol": {
+        "Сальбутамол": {
             "ingredients": {
-                "Salicylic Acid": 1,
-                "Lithium": 1,
-                "Aluminium": 1,
-                "Bromine ": 1,
-                "Ammonia": 1
+                "Салициловая кислота": 1,
+                "Литий": 1,
+                "Алюминий": 1,
+                "Бром": 1,
+                "Аммиак": 1
             },
             "output": 5,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Basic Medicine"
+            "type": "Базовое лекарство"
         },
-        "Silver Sulfadiazine": {
+        "Сульфадиазин серебра": {
             "ingredients": {
-                "Ammonia": 1,
-                "Silver": 1,
-                "Sulfur": 1,
-                "Oxygen": 1,
-                "Chlorine": 1
+                "Аммиак": 1,
+                "Серебро": 1,
+                "Сера": 1,
+                "Кислород": 1,
+                "Хлор": 1
             },
             "output": 5,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Basic Medicine"
+            "type": "Базовое лекарство"
         },
-        "Styptic Powder": {
+        "Кровоостанавливающий порошок": {
             "ingredients": {
-                "Aluminium": 1,
-                "Hydrogen": 1,
-                "Oxygen": 1,
-                "Sulphuric Acid": 1
+                "Алюминий": 1,
+                "Водород": 1,
+                "Кислород": 1,
+                "Серная кислота": 1
             },
             "output": 4,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Basic Medicine"
+            "type": "Базовое лекарство"
         },
-        "Synthflesh": {
+        "Синтетическая плоть": {
             "ingredients": {
-                "Blood": 1,
-                "Carbon": 1,
-                "Styptic Powder": 1
+                "Кровь": 1,
+                "Углерод": 1,
+                "Кровоостанавливающий порошок": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Basic Medicine"
+            "type": "Базовое лекарство"
         },
-        "Syntmorphine": {
+        "Синтморфин": {
             "ingredients": {
-                "Carbon": 2,
-                "Hydrogen": 2,
-                "Ethanol": 1,
-                "Oxygen ": 1
+                "Углерод": 2,
+                "Водород": 2,
+                "Этанол": 1,
+                "Кислород": 1
             },
             "output": 6,
             "heat": {
                 "required": true,
                 "temperature": 473
             },
-            "type": "Basic Medicine"
+            "type": "Базовое лекарство"
         },
-        "Anti-burn Stimulant": {
+        "Стимулятор против ожогов": {
             "ingredients": {
-                "Synthflesh": 40
+                "Синтетическая плоть": 40
             },
             "output": 1,
             "heat": {
                 "required": true,
                 "temperature": 474
             },
-            "type": "Superior Medicine"
+            "type": "Превосходное лекарство"
         },
-        "Cryostylane": {
+        "Криостилан": {
             "ingredients": {
-                "Water": 1,
-                "Plasma": 1,
-                "Nitrogen": 1
+                "Вода": 1,
+                "Плазма": 1,
+                "Азот": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Miscellaneous"
+            "type": "Разное"
         },
-        "Cryoxadone": {
+        "Криоксадон": {
             "ingredients": {
-                "Plasma": 1,
-                "Acetone": 1,
-                "Unstable Mutagen": 1,
-                "Cryostylane": 1
+                "Плазма": 1,
+                "Ацетон": 1,
+                "Нестабильный мутаген": 1,
+                "Криостилан": 1
             },
             "output": 4,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Superior Medicine"
+            "type": "Превосходное лекарство"
         },
-        "Hydrocodone": {
+        "Гидрокодон": {
             "ingredients": {
-                "Morphine": 1,
-                "Sulphuric Acid": 1,
-                "Water": 1,
-                "Oil": 1
+                "Морфин": 1,
+                "Серная кислота": 1,
+                "Вода": 1,
+                "Масло": 1
             },
             "output": 2,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Superior Medicine"
+            "type": "Превосходное лекарство"
         },
-        "Mitocholide": {
+        "Митохолид": {
             "ingredients": {
-                "Cryoxadone": 1,
-                "Synthflesh": 1,
-                "Plasma": 1
+                "Криоксадон": 1,
+                "Синтетическая плоть": 1,
+                "Плазма": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Superior Medicine"
+            "type": "Превосходное лекарство"
         },
-        "Cyanide": {
+        "Цианид": {
             "ingredients": {
-                "Oil": 1,
-                "Ammonia": 1,
-                "Oxygen": 1
+                "Масло": 1,
+                "Аммиак": 1,
+                "Кислород": 1
             },
             "output": 3,
             "heat": {
                 "required": true,
                 "temperature": 380
             },
-            "type": "Toxins"
+            "type": "Токсины"
         },
-        "Formaldehyde": {
+        "Формальдегид": {
             "ingredients": {
-                "Ethanol": 1,
-                "Oxygen": 1,
-                "Silver": 1
+                "Этанол": 1,
+                "Кислород": 1,
+                "Серебро": 1
             },
             "output": 3,
             "heat": {
                 "required": true,
                 "temperature": 425
             },
-            "type": "Other Medicine"
+            "type": "Другое лекарство"
         },
-        "Perfluorodecalin": {
+        "Перфтордекалин": {
             "ingredients": {
-                "Hydrogen": 1,
-                "Fluorine": 1,
-                "Oil": 1
+                "Водород": 1,
+                "Фтор": 1,
+                "Масло": 1
             },
             "output": 3,
             "heat": {
                 "required": true,
                 "temperature": 374
             },
-            "type": "Superior Medicine"
+            "type": "Превосходное лекарство"
         },
-        "Rezadone": {
+        "Резадон": {
             "ingredients": {
-                "Carpotoxin": 1,
-                "Spaceacillin": 1,
-                "Copper": 1
+                "Карпотоксин": 1,
+                "Спасациллин": 1,
+                "Медь": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Superior Medicine"
+            "type": "Превосходное лекарство"
         },
-        "Holy Water": {
+        "Святая вода": {
             "ingredients": {
-                "Water": 1,
-                "Mercury": 1,
-                "Wine": 1
+                "Вода": 1,
+                "Ртуть": 1,
+                "Вино": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Miscellaneous"
+            "type": "Разное"
         },
-        "Strange Reagent": {
+        "Странный реагент": {
             "ingredients": {
-                "Omnizine": 1,
-                "Holy Water": 1,
-                "Unstable Mutagen": 1
+                "Омнизин": 1,
+                "Святая вода": 1,
+                "Нестабильный мутаген": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Superior Medicine"
+            "type": "Превосходное лекарство"
         },
-        "Pentetic Acid": {
+        "Пентетовая кислота": {
             "ingredients": {
-                "Welding Fuel": 1,
-                "Chlorine": 1,
-                "Ammonia": 1,
-                "Formaldehyde": 1,
-                "Sodium": 1,
-                "Cyanide": 1
+                "Сварочное топливо": 1,
+                "Хлор": 1,
+                "Аммиак": 1,
+                "Формальдегид": 1,
+                "Натрий": 1,
+                "Цианид": 1
             },
             "output": 6,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Superior Medicine"
+            "type": "Превосходное лекарство"
         },
-        "Degreaser": {
+        "Обезжириватель": {
             "ingredients": {
-                "Oil": 1,
-                "Sterilizine": 1
+                "Масло": 1,
+                "Стерилизин": 1
             },
             "output": 2,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Other Medicine"
+            "type": "Другое лекарство"
         },
-        "Sterilizine": {
+        "Стерилизин": {
             "ingredients": {
-                "Antihol": 2,
-                "Chlorine": 1
+                "Антихол": 2,
+                "Хлор": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Other Medicine"
+            "type": "Другое лекарство"
         },
-        "Diphenhydramine": {
+        "Дифенгидрамин": {
             "ingredients": {
-                "Oil": 1,
-                "Carbon": 1,
-                "Bromine": 1,
-                "Diethylamine": 1,
-                "Ethanol": 1
+                "Масло": 1,
+                "Углерод": 1,
+                "Бром": 1,
+                "Диэтиламин": 1,
+                "Этанол": 1
             },
             "output": 4,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Other Medicine"
+            "type": "Другое лекарство"
         },
-        "Ether": {
+        "Эфир": {
             "ingredients": {
-                "Sulphuric Acid": 1,
-                "Ethanol": 1,
-                "Oxygen": 1
+                "Серная кислота": 1,
+                "Этанол": 1,
+                "Кислород": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Other Medicine"
+            "type": "Другое лекарство"
         },
-        "Fomepizole": {
+        "Фомепизол": {
             "ingredients": {
-                "Acetic acid": 1,
-                "Mannitol": 1,
-                "Ammonia": 1
+                "Уксусная кислота": 1,
+                "Маннитол": 1,
+                "Аммиак": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Other Medicine"
+            "type": "Другое лекарство"
         },
-        "Acetic acid": {
+        "Уксусная кислота": {
             "ingredients": {
-                "Acetaldehyde": 1,
-                "Oxygen": 1,
-                "Nitrogen": 4
+                "Ацетальдегид": 1,
+                "Кислород": 1,
+                "Азот": 4
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Other Medicine"
+            "type": "Другое лекарство"
         },
-        "Haloperidol": {
+        "Галоперидол": {
             "ingredients": {
-                "Potassium Iodide": 1,
-                "Aluminum": 1,
-                "Chlorine": 1,
-                "Fluorine": 1,
-                "Oil": 1
+                "Йодид калия": 1,
+                "Алюминий": 1,
+                "Хлор": 1,
+                "Фтор": 1,
+                "Масло": 1
             },
             "output": 4,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Other Medicine"
+            "type": "Другое лекарство"
         },
-        "Potassium Iodide": {
+        "Йодид калия": {
             "ingredients": {
-                "Potassium": 1,
-                "Iodine": 1
+                "Калий": 1,
+                "Йод": 1
             },
             "output": 2,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Other Medicine"
+            "type": "Другое лекарство"
         },
-        "Teporone": {
+        "Тепоорон": {
             "ingredients": {
-                "Acetone": 1,
-                "Silicon": 1,
-                "Plasma": 1
+                "Ацетон": 1,
+                "Кремний": 1,
+                "Плазма": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Other Medicine"
+            "type": "Другое лекарство"
         },
-        "Calomel": {
+        "Каломель": {
             "ingredients": {
-                "Mercury": 1,
-                "Chlorine": 1
+                "Ртуть": 1,
+                "Хлор": 1
             },
             "output": 2,
             "heat": {
                 "required": true,
                 "temperature": 374
             },
-            "type": "Other Medicine"
+            "type": "Другое лекарство"
         },
-        "Virus Food": {
+        "Пища для вирусов": {
             "ingredients": {
-                "Water": 1,
-                "Milk": 1,
-                "Oxygen": 1
+                "Вода": 1,
+                "Молоко": 1,
+                "Кислород": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Other Medicine"
+            "type": "Другое лекарство"
         },
-        "Aranesp": {
+        "Аранесп": {
             "ingredients": {
-                "Epinephrine": 1,
-                "Atropine": 1,
-                "Insulin": 1
+                "Эпинефрин": 1,
+                "Атропин": 1,
+                "Инсулин": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Drugs"
+            "type": "Наркотики"
         },
-        "Crank": {
+        "Крэнк": {
             "ingredients": {
-                "Diphenhydramine": 1,
-                "Ammonia": 1,
-                "Lithium": 1,
-                "Sulphuric Acid": 1,
-                "Welding Fuel": 1
+                "Дифенгидрамин": 1,
+                "Аммиак": 1,
+                "Литий": 1,
+                "Серная кислота": 1,
+                "Сварочное топливо": 1
             },
             "output": 5,
             "heat": {
                 "required": true,
                 "temperature": 390
             },
-            "type": "Drugs"
+            "type": "Наркотики"
         },
-        "Fliptonium": {
+        "Флиптониум": {
             "ingredients": {
-                "Ephedrine": 1,
-                "Liquid Dark Matter": 1,
-                "Chocolate": 1,
-                "Gin & Sonic": 1
+                "Эфедрин": 1,
+                "Жидкая тёмная материя": 1,
+                "Шоколад": 1,
+                "Джин и Соник": 1
             },
             "output": 4,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Drugs"
+            "type": "Наркотики"
         },
-        "Liquid Dark Matter": {
+        "Жидкая тёмная материя": {
             "ingredients": {
-                "Plasma": 1,
-                "Radium": 1,
-                "Carbon": 1
+                "Плазма": 1,
+                "Радий": 1,
+                "Углерод": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Drugs"
+            "type": "Наркотики"
         },
-        "Jestosterone": {
+        "Джестостерон": {
             "ingredients": {
-                "Blood": 1,
-                "Banana Juice": 1,
-                "Salt": 1,
-                "Space Drugs": 1,
-                "Space Lube": 1
+                "Кровь": 1,
+                "Банановый сок": 1,
+                "Соль": 1,
+                "Космические наркотики": 1,
+                "Космическая смазка": 1
             },
             "output": 5,
             "heat": {
                 "required": true,
                 "temperature": 374
             },
-            "type": "Drugs"
+            "type": "Наркотики"
         },
-        "Space Drugs": {
+        "Космические наркотики": {
             "ingredients": {
-                "Lithium": 1,
-                "Mercury": 1,
-                "Sugar": 1
+                "Литий": 1,
+                "Ртуть": 1,
+                "Сахар": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Drugs"
+            "type": "Наркотики"
         },
-        "Space Lube": {
+        "Космическая смазка": {
             "ingredients": {
-                "Oxygen": 1,
-                "Silicon": 1,
-                "Water": 1
+                "Кислород": 1,
+                "Кремний": 1,
+                "Вода": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Miscellaneous"
+            "type": "Разное"
         },
-        "Jenkem": {
+        "Дженкем": {
             "ingredients": {
-                "Toilet Water": 1,
-                "Water": 1,
-                "Ammonia": 1
+                "Туалетная вода": 1,
+                "Вода": 1,
+                "Аммиак": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Drugs"
+            "type": "Наркотики"
         },
-        "Krokodil": {
+        "Крокодил": {
             "ingredients": {
-                "Diphenhydramine": 1,
-                "Morphine": 1,
-                "Space Cleaner": 1,
-                "Potassium": 1,
-                "Phosphorus": 1,
-                "Welding Fuel": 1
+                "Дифенгидрамин": 1,
+                "Морфин": 1,
+                "Космический очиститель": 1,
+                "Калий": 1,
+                "Фосфор": 1,
+                "Сварочное топливо": 1
             },
             "output": 6,
             "heat": {
                 "required": true,
                 "temperature": 390
             },
-            "type": "Drugs"
+            "type": "Наркотики"
         },
-        "Lysergic acid diethylamide": {
+        "ЛСД": {
             "ingredients": {
-                "Diethylamine": 1,
-                "Fungus": 1
+                "Диэтиламин": 1,
+                "Грибок": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Drugs"
+            "type": "Наркотики"
         },
-        "Mate de Coca": {
+        "Мате де Кока": {
             "ingredients": {
-                "Water": 5,
-                "Coca Extract": 1
+                "Вода": 5,
+                "Экстракт коки": 1
             },
             "output": 6,
             "heat": {
                 "required": true,
                 "temperature": 400
             },
-            "type": "Drugs"
+            "type": "Наркотики"
         },
-        "Surge": {
+        "Сёрдж": {
             "ingredients": {
-                "Thermite": 3,
-                "Uranium": 1,
-                "Fluorosurfactant": 1,
-                "Sulphuric Acid": 1
+                "Термит": 3,
+                "Уран": 1,
+                "Фтороповерхностно-активное вещество": 1,
+                "Серная кислота": 1
             },
             "output": 6,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Drugs"
+            "type": "Наркотики"
         },
-        "Ultra Lube": {
+        "Ультра смазка": {
             "ingredients": {
-                "Space Lube": 2,
-                "Formaldehyde": 1,
-                "Cryostylane": 1
+                "Космическая смазка": 2,
+                "Формальдегид": 1,
+                "Криостилан": 1
             },
             "output": 4,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Drugs"
+            "type": "Наркотики"
         },
-        "Crack": {
+        "Крэк": {
             "ingredients": {
-                "Coca Extract": 5,
-                "Ammonia": 3,
-                "Welding Fuel": 2,
-                "Water": 5
+                "Экстракт коки": 5,
+                "Аммиак": 3,
+                "Сварочное топливо": 2,
+                "Вода": 5
             },
             "output": 5,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Drugs"
+            "type": "Наркотики"
         },
-        "Cocaine": {
+        "Кокаин": {
             "ingredients": {
-                "Crack": 1,
-                "Diethylamine": 1
+                "Крэк": 1,
+                "Диэтиламин": 1
             },
             "output": 1,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Drugs"
+            "type": "Наркотики"
         },
-        "Stabilizing Agent": {
+        "Стабилизирующий агент": {
             "ingredients": {
-                "Iron": 1,
-                "Oxygen": 1,
-                "Hydrogen": 1
+                "Железо": 1,
+                "Кислород": 1,
+                "Водород": 1
             },
             "output": 2,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Boom"
+            "type": "Взрывчатка"
         },
-        "Azide": {
+        "Азид": {
             "ingredients": {
-                "Chlorine": 1,
-                "Oxygen": 1,
-                "Nitrogen": 1,
-                "Ammonia": 1,
-                "Sodium": 1,
-                "Silver": 1
+                "Хлор": 1,
+                "Кислород": 1,
+                "Азот": 1,
+                "Аммиак": 1,
+                "Натрий": 1,
+                "Серебро": 1
             },
             "output": 1,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Boom"
+            "type": "Взрывчатка"
         },
-        "Black Powder": {
+        "Чёрный порох": {
             "ingredients": {
-                "Saltpetre": 1,
-                "Charcoal": 1,
-                "Sulfur": 1
+                "Селитра": 1,
+                "Древесный уголь": 1,
+                "Сера": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Boom"
+            "type": "Взрывчатка"
         },
-        "Bee Explosion": {
+        "Пчелиный взрыв": {
             "ingredients": {
-                "Honey": 1,
-                "Strange Reagent": 1,
-                "Radium": 1
+                "Мёд": 1,
+                "Странный реагент": 1,
+                "Радий": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Boom"
+            "type": "Взрывчатка"
         },
-        "Chlorine Trifluoride": {
+        "Трифторид хлора": {
             "ingredients": {
-                "Chlorine": 1,
-                "Fluorine": 3
+                "Хлор": 1,
+                "Фтор": 3
             },
             "output": 4,
             "heat": {
                 "required": true,
                 "temperature": 424
             },
-            "type": "Boom"
+            "type": "Взрывчатка"
         },
-        "Explosion": {
+        "Взрыв": {
             "ingredients": {
-                "Potassium": 1,
-                "Water": 1
+                "Калий": 1,
+                "Вода": 1
             },
             "output": 2,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Boom"
+            "type": "Взрывчатка"
         },
-        "EMP": {
+        "ЭМИ": {
             "ingredients": {
-                "Iron": 1,
-                "Uranium": 1
+                "Железо": 1,
+                "Уран": 1
             },
             "output": 2,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Boom"
+            "type": "Взрывчатка"
         },
-        "Firefighting Foam": {
+        "Противопожарная пена": {
             "ingredients": {
-                "Chlorine": 1,
-                "Carbon": 1,
-                "Sulfur": 1
+                "Хлор": 1,
+                "Углерод": 1,
+                "Сера": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Boom"
+            "type": "Взрывчатка"
         },
-        "Flash Powder": {
+        "Вспышечный порошок": {
             "ingredients": {
-                "Aluminium": 1,
-                "Chlorine": 1,
-                "Potassium": 1,
-                "Sulfur": 1
+                "Алюминий": 1,
+                "Хлор": 1,
+                "Калий": 1,
+                "Сера": 1
             },
             "output": 4,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Boom"
+            "type": "Взрывчатка"
         },
-        "Fluorosurfactant": {
+        "Фтороповерхностно-активное вещество": {
             "ingredients": {
-                "Carbon": 2,
-                "Fluorine": 2,
-                "Sulphuric Acid": 1
+                "Углерод": 2,
+                "Фтор": 2,
+                "Серная кислота": 1
             },
             "output": 5,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Boom"
+            "type": "Взрывчатка"
         },
-        "Napalm": {
+        "Напалм": {
             "ingredients": {
-                "Sugar": 1,
-                "Welding Fuel": 1,
-                "Ethanol": 1
+                "Сахар": 1,
+                "Сварочное топливо": 1,
+                "Этанол": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Boom"
+            "type": "Взрывчатка"
         },
-        "Nitroglycerin": {
+        "Нитроглицерин": {
             "ingredients": {
-                "Glycerol": 1,
-                "FluoroSulfuric Acid": 1,
-                "Sulphuric Acid": 1
+                "Глицерин": 1,
+                "Фторосерная кислота": 1,
+                "Серная кислота": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Boom"
+            "type": "Взрывчатка"
         },
-        "Phlogiston": {
+        "Флогистон": {
             "ingredients": {
-                "Phosphorus": 1,
-                "Sulphuric Acid": 1,
-                "Plasma": 1
+                "Фосфор": 1,
+                "Серная кислота": 1,
+                "Плазма": 1
             },
             "output": 4,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Boom"
+            "type": "Взрывчатка"
         },
-        "Phlogiston dust": {
+        "Флогистоновая пыль": {
             "ingredients": {
-                "Phlogiston": 1,
-                "Charcoal": 1,
-                "Phosphorus": 1,
-                "Sulfur": 1
+                "Флогистон": 1,
+                "Древесный уголь": 1,
+                "Фосфор": 1,
+                "Сера": 1
             },
             "output": 2,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Boom"
+            "type": "Взрывчатка"
         },
-        "Pyrosium": {
+        "Пиросий": {
             "ingredients": {
-                "Plasma": 1,
-                "Radium": 1,
-                "Phosphorus": 1
+                "Плазма": 1,
+                "Радий": 1,
+                "Фосфор": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Boom"
+            "type": "Взрывчатка"
         },
-        "Shock Explosion": {
+        "Шоковый взрыв": {
             "ingredients": {
-                "Teslium": 5,
-                "Uranium": 5
+                "Теслий": 5,
+                "Уран": 5
             },
             "output": 10,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Boom"
+            "type": "Взрывчатка"
         },
-        "Sonic Powder": {
+        "Звуковой порошок": {
             "ingredients": {
-                "Oxygen": 1,
-                "Cola": 1,
-                "Phosphorus": 1
+                "Кислород": 1,
+                "Кола": 1,
+                "Фосфор": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Boom"
+            "type": "Взрывчатка"
         },
-        "Smoke": {
+        "Дым": {
             "ingredients": {
-                "Phosphorus": 1,
-                "Potassium": 1,
-                "Sugar": 1
+                "Фосфор": 1,
+                "Калий": 1,
+                "Сахар": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Boom"
+            "type": "Взрывчатка"
         },
-        "Sorium": {
+        "Сорий": {
             "ingredients": {
-                "Mercury": 1,
-                "Oxygen": 1,
-                "Nitrogen": 1,
-                "Carbon": 1
+                "Ртуть": 1,
+                "Кислород": 1,
+                "Азот": 1,
+                "Углерод": 1
             },
             "output": 4,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Boom"
+            "type": "Взрывчатка"
         },
-        "Teslium": {
+        "Теслий": {
             "ingredients": {
-                "Plasma": 1,
-                "Silver": 1,
-                "Black Powder": 1
+                "Плазма": 1,
+                "Серебро": 1,
+                "Чёрный порох": 1
             },
             "output": 3,
             "heat": {
                 "required": true,
                 "temperature": 400
             },
-            "type": "Boom"
+            "type": "Взрывчатка"
         },
-        "Thermite": {
+        "Термит": {
             "ingredients": {
-                "Aluminium": 1,
-                "Iron": 1,
-                "Oxygen": 1
+                "Алюминий": 1,
+                "Железо": 1,
+                "Кислород": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Boom"
+            "type": "Взрывчатка"
         },
-        "Capulettium": {
+        "Капулеттиум": {
             "ingredients": {
-                "Neurotoxin": 1,
-                "Hydrogen": 1,
-                "Chlorine": 1
+                "Нейротоксин": 1,
+                "Водород": 1,
+                "Хлор": 1
             },
             "output": 1,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Toxins"
+            "type": "Токсины"
         },
-        "Neurotoxin": {
+        "Нейротоксин": {
             "ingredients": {
-                "Space Drugs": 1
+                "Космические наркотики": 1
             },
             "output": 1,
             "heat": {
                 "required": true,
                 "temperature": 674
             },
-            "type": "Toxins"
+            "type": "Токсины"
         },
-        "Capulettium Plus": {
+        "Капулеттиум Плюс": {
             "ingredients": {
-                "Capulettium": 1,
-                "Ephedrine": 1,
-                "Methamphetamine": 1
+                "Капулеттиум": 1,
+                "Эфедрин": 1,
+                "Метамфетамин": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Toxins"
+            "type": "Токсины"
         },
-        "FluoroSulfuric Acid": {
+        "Фторосерная кислота": {
             "ingredients": {
-                "Fluorine": 1,
-                "Hydrogen": 1,
-                "Potassium": 1,
-                "Sulphuric Acid": 1
+                "Фтор": 1,
+                "Водород": 1,
+                "Калий": 1,
+                "Серная кислота": 1
             },
             "output": 4,
             "heat": {
                 "required": true,
                 "temperature": 380
             },
-            "type": "Toxins"
+            "type": "Токсины"
         },
-        "Glyphosate": {
+        "Глифосат": {
             "ingredients": {
-                "Chlorine": 1,
-                "Phosphorus": 1,
-                "Formaldehyde": 1,
-                "Ammonia": 1
+                "Хлор": 1,
+                "Фосфор": 1,
+                "Формальдегид": 1,
+                "Аммиак": 1
             },
             "output": 4,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Toxins"
+            "type": "Токсины"
         },
-        "Atrazine": {
+        "Атразин": {
             "ingredients": {
-                "Chlorine": 1,
-                "Hydrogen": 1,
-                "Nitrogen": 1
+                "Хлор": 1,
+                "Водород": 1,
+                "Азот": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Toxins"
+            "type": "Токсины"
         },
-        "Heparin": {
+        "Гепарин": {
             "ingredients": {
-                "Meatslurry": 1,
-                "Phenol": 1,
-                "Sulphuric Acid": 1,
-                "Sugar": 1
+                "Мясная суспензия": 1,
+                "Фенол": 1,
+                "Серная кислота": 1,
+                "Сахар": 1
             },
             "output": 2,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Toxins"
+            "type": "Токсины"
         },
-        "Meatslurry": {
+        "Мясная суспензия": {
             "ingredients": {
-                "Corn Starch": 1,
-                "Blood": 1
+                "Кукурузный крахмал": 1,
+                "Кровь": 1
             },
             "output": 2,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Miscellaneous"
+            "type": "Разное"
         },
-        "Itching Powder": {
+        "Зудящий порошок": {
             "ingredients": {
-                "Welding Fuel": 1,
-                "Ammonia": 1,
-                "Fungus": 1
+                "Сварочное топливо": 1,
+                "Аммиак": 1,
+                "Грибок": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Toxins"
+            "type": "Токсины"
         },
-        "Pest Killer": {
+        "Убийца вредителей": {
             "ingredients": {
-                "Toxin": 1,
-                "Ethanol": 4
+                "Токсин": 1,
+                "Этанол": 4
             },
             "output": 5,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Toxins"
+            "type": "Токсины"
         },
-        "Rotatium": {
+        "Ротатиум": {
             "ingredients": {
-                "Lysergic acid diethylamide": 1,
-                "Teslium": 1,
-                "Methamphetamine": 1
+                "ЛСД": 1,
+                "Теслий": 1,
+                "Метамфетамин": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Toxins"
+            "type": "Токсины"
         },
-        "Sarin": {
+        "Зорин": {
             "ingredients": {
-                "Acetone": 1,
-                "Atrazine": 1,
-                "Welding Fuel": 1,
-                "Chlorine": 1,
-                "Fluorine": 1,
-                "Hydrogen": 1,
-                "Oxygen": 1,
-                "Phosphorus": 1
+                "Ацетон": 1,
+                "Атразин": 1,
+                "Сварочное топливо": 1,
+                "Хлор": 1,
+                "Фтор": 1,
+                "Водород": 1,
+                "Кислород": 1,
+                "Фосфор": 1
             },
             "output": 3,
             "heat": {
                 "required": true,
                 "temperature": 374
             },
-            "type": "Toxins"
+            "type": "Токсины"
         },
-        "Sulfonal": {
+        "Суффональ": {
             "ingredients": {
-                "Acetone": 1,
-                "Diethylamine": 1,
-                "Sulfur": 1
+                "Ацетон": 1,
+                "Диэтиламин": 1,
+                "Сера": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Toxins"
+            "type": "Токсины"
         },
-        "Corn Syrup": {
+        "Кукурузный сироп": {
             "ingredients": {
-                "Corn Starch": 1,
-                "Sulphuric Acid": 1
+                "Кукурузный крахмал": 1,
+                "Серная кислота": 1
             },
             "output": 2,
             "heat": {
                 "required": true,
                 "temperature": 374
             },
-            "type": "Food"
+            "type": "Еда"
         },
-        "Cola": {
+        "Кола": {
             "ingredients": {
-                "Carbon": 1,
-                "Oxygen": 1,
-                "Water": 1,
-                "Sugar": 1
+                "Углерод": 1,
+                "Кислород": 1,
+                "Вода": 1,
+                "Сахар": 1
             },
             "output": 4,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Food"
+            "type": "Еда"
         },
-        "Synthanol": {
+        "Синтанол": {
             "ingredients": {
-                "Plasma": 1,
-                "Welding Fuel": 1,
-                "Space Lube": 1
+                "Плазма": 1,
+                "Сварочное топливо": 1,
+                "Космическая смазка": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Food"
+            "type": "Еда"
         },
-        "Lipolicide": {
+        "Липолицид": {
             "ingredients": {
-                "Mercury": 1,
-                "Diethylamine": 1,
-                "Ephedrine": 1
+                "Ртуть": 1,
+                "Диэтиламин": 1,
+                "Эфедрин": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Food"
+            "type": "Еда"
         },
-        "Colorful Reagent": {
+        "Цветной реагент": {
             "ingredients": {
-                "Plasma": 1,
-                "Radium": 1,
-                "Space Drugs": 1,
-                "Cryoxadone": 1,
-                "Triple Citrus": 1,
-                "Stabilizing Agent": 1
+                "Плазма": 1,
+                "Радий": 1,
+                "Космические наркотики": 1,
+                "Криоксадон": 1,
+                "Тройной цитрус": 1,
+                "Стабилизирующий агент": 1
             },
             "output": 6,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Miscellaneous"
+            "type": "Разное"
         },
-        "Condensed Capsaicin": {
+        "Конденсированный капсаицин": {
             "ingredients": {
-                "Capsaicin Oil": 2,
-                "Plasma": 5
+                "Масло капсаицина": 2,
+                "Плазма": 5
             },
             "output": 1,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Miscellaneous"
+            "type": "Разное"
         },
-        "Corgium": {
+        "Коргий": {
             "ingredients": {
-                "Nutriment": 1,
-                "Strange Reagent": 1,
-                "Colorful Reagent": 1,
-                "Blood": 1
+                "Питательное вещество": 1,
+                "Странный реагент": 1,
+                "Цветной реагент": 1,
+                "Кровь": 1
             },
             "output": 3,
             "heat": {
                 "required": true,
                 "temperature": 374
             },
-            "type": "Miscellaneous"
+            "type": "Разное"
         },
-        "Drying Agent": {
+        "Осушающий агент": {
             "ingredients": {
-                "Plasma": 2,
-                "Ethanol": 1,
-                "Sodium": 1
+                "Плазма": 2,
+                "Этанол": 1,
+                "Натрий": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Miscellaneous"
+            "type": "Разное"
         },
-        "Flaptonium": {
+        "Флаптониум": {
             "ingredients": {
-                "Egg": 1,
-                "Colorful Reagent": 1,
-                "Strange Reagent": 1,
-                "Chicken Noodle Soup": 1,
-                "Blood": 1
+                "Яйцо": 1,
+                "Цветной реагент": 1,
+                "Странный реагент": 1,
+                "Куриный суп с лапшой": 1,
+                "Кровь": 1
             },
             "output": 5,
             "heat": {
                 "required": true,
                 "temperature": 374
             },
-            "type": "Miscellaneous"
+            "type": "Разное"
         },
-        "Hairgrownium": {
+        "Волосорастин": {
             "ingredients": {
-                "Carpet": 1,
-                "Synthflesh": 1,
-                "Ephedrine": 1
+                "Ковёр": 1,
+                "Синтетическая плоть": 1,
+                "Эфедрин": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Miscellaneous"
+            "type": "Разное"
         },
-        "Carpet": {
+        "Ковёр": {
             "ingredients": {
-                "Fungus": 1,
-                "Blood": 1
+                "Грибок": 1,
+                "Кровь": 1
             },
             "output": 2,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Miscellaneous"
+            "type": "Разное"
         },
-        "Life": {
+        "Жизнь": {
             "ingredients": {
-                "Strange Reagent": 1,
-                "Synthflesh": 1,
-                "Blood": 1
+                "Странный реагент": 1,
+                "Синтетическая плоть": 1,
+                "Кровь": 1
             },
             "output": 1,
             "heat": {
                 "required": true,
                 "temperature": 374
             },
-            "type": "Miscellaneous"
+            "type": "Разное"
         },
-        "Lye": {
+        "Щёлочь": {
             "ingredients": {
-                "Sodium": 1,
-                "Hydrogen": 1,
-                "Oxygen": 1
+                "Натрий": 1,
+                "Водород": 1,
+                "Кислород": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Miscellaneous"
+            "type": "Разное"
         },
-        "Plastic Polymers": {
+        "Пластиковые полимеры": {
             "ingredients": {
-                "Oil": 5,
-                "Sulphuric Acid": 2,
-                "Ash": 3
+                "Масло": 5,
+                "Серная кислота": 2,
+                "Пепел": 3
             },
             "output": 10,
             "heat": {
                 "required": true,
                 "temperature": 374
             },
-            "type": "Miscellaneous"
+            "type": "Разное"
         },
-        "Pure Love": {
+        "Чистая любовь": {
             "ingredients": {
-                "Pure Hugs": 1,
-                "Chocolate": 1
+                "Чистые объятия": 1,
+                "Шоколад": 1
             },
             "output": 2,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Miscellaneous"
+            "type": "Разное"
         },
-        "Quantum Hair Dye": {
+        "Квантовый краситель для волос": {
             "ingredients": {
-                "Hairgrownium": 1,
-                "Colorful Reagent": 1
+                "Волосорастин": 1,
+                "Цветной реагент": 1
             },
             "output": 2,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Miscellaneous"
+            "type": "Разное"
         },
-        "Soapification": {
+        "Омыление": {
             "ingredients": {
-                "Lye": 10,
-                "Liquid Gibs": 10
+                "Щёлочь": 10,
+                "Жидкие внутренности": 10
             },
             "output": 1,
             "heat": {
                 "required": true,
                 "temperature": 374
             },
-            "type": "Miscellaneous"
+            "type": "Разное"
         },
-        "Super Hairgrownium": {
+        "Супер волосорастин": {
             "ingredients": {
-                "Hairgrownium": 1,
-                "Iron": 1,
-                "Methamphetamine": 1
+                "Волосорастин": 1,
+                "Железо": 1,
+                "Метамфетамин": 1
             },
             "output": 3,
             "heat": {
                 "required": false,
                 "temperature": 0
             },
-            "type": "Miscellaneous"
+            "type": "Разное"
         },
-        "Ash": {
+        "Пепел": {
             "ingredients": {
-                "Oil": 2
+                "Масло": 2
             },
             "output": 1,
             "heat": {
                 "required": true,
                 "temperature": 874
             },
-            "type": "Component"
+            "type": "Компонент"
         },
-        "Methamphetamine": {
+        "Метамфетамин": {
             "ingredients": {
-                "Ephedrine": 1,
-                "Iodine": 1,
-                "Phosphorus": 1,
-                "Hydrogen": 1
+                "Эфедрин": 1,
+                "Йод": 1,
+                "Фосфор": 1,
+                "Водород": 1
             },
             "output": 4,
             "heat": {
                 "required": true,
                 "temperature": 374
             },
-            "type": "Drugs"
+            "type": "Наркотики"
         }
-},
+    },
     "comments": {
-        "Welding Fuel": "В баке для сварочного топлива",
-        "Fungus": "На стенах и у ботаников",
-        "Corn Oil": "У ботаников",
-        "Ash": "Можно получить сжигая бумагу",
-        "Blood": "Сливается с гуманоидов",
-        "Morphine": "В наномеде",
-        "Wine": "Бар, бухломат",
-        "Carpotoxin": "Из мяса карпов или из ботаники",
-        "Omnizine": "Гипоспрей смо, донк-покеты или ботаника",
-        "Azide": "Всегда превращается в 1 юнит вещества при любом количестве смешиваемого"
+        "Сварочное топливо": "В баке для сварочного топлива",
+        "Грибок": "На стенах и у ботаников",
+        "Кукурузное масло": "У ботаников",
+        "Пепел": "Можно получить сжигая бумагу",
+        "Кровь": "Сливается с гуманоидов",
+        "Морфин": "В наномеде",
+        "Вино": "Бар, бухломат",
+        "Карпотоксин": "Из мяса карпов или из ботаники",
+        "Омнизин": "Гипоспрей смо, донк-покеты или ботаника",
+        "Азид": "Всегда превращается в 1 юнит вещества при любом количестве смешиваемого"
     }
 }
